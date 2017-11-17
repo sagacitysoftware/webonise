@@ -1,0 +1,234 @@
+!_TAG_FILE_FORMAT	2
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+!_TAG_PROGRAM_AUTHOR	Joel Stemmer	/stemmertech@gmail.com/
+!_TAG_PROGRAM_NAME	gotags
+!_TAG_PROGRAM_URL	https://github.com/jstemmer/gotags
+!_TAG_PROGRAM_VERSION	1.3.0	/go1.6.2/
+AddJSONResponse	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	33;"	t	access:public	line:33	type:struct
+CORESERVER	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	55;"	c	access:public	line:55	type:string
+CompletedOn	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	28;"	w	access:public	ctype:TodoCacheRec	line:28	type:time.Time
+CompletedOn	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	46;"	w	access:public	ctype:TodoRec	line:46	type:time.Time
+ConfigParams	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	32;"	t	access:public	line:32	type:struct
+ConnectionString	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	67;"	w	access:public	ctype:MysqlDBConfig	line:67	type:string
+DBName	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	64;"	w	access:public	ctype:MysqlDBConfig	line:64	type:string
+DBServerName	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	65;"	w	access:public	ctype:MysqlDBConfig	line:65	type:string
+DBServerPort	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	66;"	w	access:public	ctype:MysqlDBConfig	line:66	type:uint16
+DEBUG	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	47;"	c	access:public	line:47	type:string
+DEFAULTGOPATH	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	44;"	c	access:public	line:44	type:string
+DueDate	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	26;"	w	access:public	ctype:TodoCacheRec	line:26	type:time.Time
+DueDate	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	28;"	w	access:public	ctype:TodoRecAddJSONRequest	line:28	type:time.Time
+DueDate	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	44;"	w	access:public	ctype:TodoRec	line:44	type:time.Time
+DueDate	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	69;"	w	access:public	ctype:TodoUpdateRec	line:69	type:time.Time
+EDA	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	27;"	w	access:public	ctype:TodoCacheRec	line:27	type:time.Time
+EDA	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	29;"	w	access:public	ctype:TodoRecAddJSONRequest	line:29	type:time.Time
+EDA	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	45;"	w	access:public	ctype:TodoRec	line:45	type:time.Time
+EDA	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	70;"	w	access:public	ctype:TodoUpdateRec	line:70	type:time.Time
+ERROR	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	48;"	c	access:public	line:48	type:string
+GenericResponse	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	104;"	t	access:public	line:104	type:struct
+ID	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	23;"	w	access:public	ctype:TodoCacheRec	line:23	type:uint32
+ID	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	101;"	w	access:public	ctype:TodoRecDeleteJSONRequest	line:101	type:uint32
+ID	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	36;"	w	access:public	ctype:AddJSONResponse	line:36	type:uint32
+ID	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	41;"	w	access:public	ctype:TodoRec	line:41	type:uint32
+ID	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	57;"	w	access:public	ctype:TodoRecGetJSONRequest	line:57	type:uint32
+ID	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	74;"	w	access:public	ctype:TodoRecUpdateJSONRequest	line:74	type:uint32
+ID	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	81;"	w	access:public	ctype:TodoRecUpdateStrTypeJSONRequest	line:81	type:uint32
+ID	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	88;"	w	access:public	ctype:TodoRecUpdateTimeTypeJSONRequest	line:88	type:uint32
+ID	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	95;"	w	access:public	ctype:TodoRecUpdateStatusJSONRequest	line:95	type:uint32
+INFO	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	49;"	c	access:public	line:49	type:string
+Init	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go	69;"	f	access:public	line:69	signature:()	type:*ConfigParams
+Init	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCache.go	9;"	f	access:public	line:9	signature:()	type:bool
+Init	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	260;"	f	access:public	line:260	signature:()
+Init	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/webServer.go	26;"	f	access:public	line:26	signature:(pVromWG *sync.WaitGroup)
+Log	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	119;"	f	access:public	line:119	signature:(strcomponent string, loglevelStr string, msg string, args )
+LogConfig	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	53;"	t	access:public	line:53	type:struct
+LogConfigParams	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	35;"	w	access:public	ctype:ConfigParams	line:35	type:LogConfig
+LogDir	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	54;"	w	access:public	ctype:LogConfig	line:54	type:string
+LogDispatcher	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	174;"	f	access:public	line:174	signature:(pVromWG *sync.WaitGroup)
+LogFile	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	56;"	w	access:public	ctype:LogConfig	line:56	type:string
+LogFileNamePrefix	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	55;"	w	access:public	ctype:LogConfig	line:55	type:string
+LogFileSize	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	58;"	w	access:public	ctype:LogConfig	line:58	type:int64
+LogLevel	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	57;"	w	access:public	ctype:LogConfig	line:57	type:string
+LogMaxFiles	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	59;"	w	access:public	ctype:LogConfig	line:59	type:int8
+MSG_ERR_ADD_TODO_REC	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	19;"	c	access:public	line:19	type:string
+MSG_ERR_DELETE_TODO_REC	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	46;"	c	access:public	line:46	type:string
+MSG_ERR_GET_TODO_REC	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	22;"	c	access:public	line:22	type:string
+MSG_ERR_GET_TODO_RECLIST	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	25;"	c	access:public	line:25	type:string
+MSG_ERR_UPDATE_TODO_REC	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	28;"	c	access:public	line:28	type:string
+MSG_ERR_UPDATE_TODO_REC_DUEDATE	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	37;"	c	access:public	line:37	type:string
+MSG_ERR_UPDATE_TODO_REC_EDA	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	40;"	c	access:public	line:40	type:string
+MSG_ERR_UPDATE_TODO_REC_SHORTDESC	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	34;"	c	access:public	line:34	type:string
+MSG_ERR_UPDATE_TODO_REC_STATUS	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	43;"	c	access:public	line:43	type:string
+MSG_ERR_UPDATE_TODO_REC_TITLE	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	31;"	c	access:public	line:31	type:string
+MSG_SUCCESS_ADD_TODO_REC	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	20;"	c	access:public	line:20	type:string
+MSG_SUCCESS_DELETE_TODO_REC	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	47;"	c	access:public	line:47	type:string
+MSG_SUCCESS_GET_TODO_REC	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	23;"	c	access:public	line:23	type:string
+MSG_SUCCESS_GET_TODO_RECLIST	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	26;"	c	access:public	line:26	type:string
+MSG_SUCCESS_UPDATE_TODO_REC	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	29;"	c	access:public	line:29	type:string
+MSG_SUCCESS_UPDATE_TODO_REC_DUEDATE	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	38;"	c	access:public	line:38	type:string
+MSG_SUCCESS_UPDATE_TODO_REC_EDA	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	41;"	c	access:public	line:41	type:string
+MSG_SUCCESS_UPDATE_TODO_REC_SHORTDESC	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	35;"	c	access:public	line:35	type:string
+MSG_SUCCESS_UPDATE_TODO_REC_STATUS	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	44;"	c	access:public	line:44	type:string
+MSG_SUCCESS_UPDATE_TODO_REC_TITLE	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	32;"	c	access:public	line:32	type:string
+Message	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	106;"	w	access:public	ctype:GenericResponse	line:106	type:string
+Message	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	35;"	w	access:public	ctype:AddJSONResponse	line:35	type:string
+Message	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	51;"	w	access:public	ctype:TodoRecGetListJSONResponse	line:51	type:string
+Message	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	61;"	w	access:public	ctype:TodoRecGetJSONResponse	line:61	type:string
+MysqlDBConfig	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	63;"	t	access:public	line:63	type:struct
+MysqlDBConfigParams	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	36;"	w	access:public	ctype:ConfigParams	line:36	type:MysqlDBConfig
+PConfigParameters	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appRepo/appRepo.go	21;"	v	access:public	line:21	type:*config.ConfigParams
+RecLock	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	30;"	w	access:public	ctype:TodoCacheRec	line:30	type:*sync.Mutex
+ServerConfig	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	47;"	t	access:public	line:47	type:struct
+ServerConfigParams	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	34;"	w	access:public	ctype:ConfigParams	line:34	type:ServerConfig
+ServerWebServicePort	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	49;"	w	access:public	ctype:ServerConfig	line:49	type:int16
+ServerWebSocketPort	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	48;"	w	access:public	ctype:ServerConfig	line:48	type:int16
+ShortDesc	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	29;"	w	access:public	ctype:TodoCacheRec	line:29	type:string
+ShortDesc	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	30;"	w	access:public	ctype:TodoRecAddJSONRequest	line:30	type:string
+ShortDesc	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	47;"	w	access:public	ctype:TodoRec	line:47	type:string
+ShortDesc	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	71;"	w	access:public	ctype:TodoUpdateRec	line:71	type:string
+Status	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	25;"	w	access:public	ctype:TodoCacheRec	line:25	type:uint8
+Status	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	27;"	w	access:public	ctype:TodoRecAddJSONRequest	line:27	type:uint8
+Status	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	43;"	w	access:public	ctype:TodoRec	line:43	type:uint8
+Status	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	68;"	w	access:public	ctype:TodoUpdateRec	line:68	type:uint8
+Status	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	96;"	w	access:public	ctype:TodoRecUpdateStatusJSONRequest	line:96	type:uint8
+StrVal	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	82;"	w	access:public	ctype:TodoRecUpdateStrTypeJSONRequest	line:82	type:string
+Success	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	105;"	w	access:public	ctype:GenericResponse	line:105	type:bool
+Success	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	34;"	w	access:public	ctype:AddJSONResponse	line:34	type:bool
+Success	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	50;"	w	access:public	ctype:TodoRecGetListJSONResponse	line:50	type:bool
+Success	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	60;"	w	access:public	ctype:TodoRecGetJSONResponse	line:60	type:bool
+TimeVal	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	89;"	w	access:public	ctype:TodoRecUpdateTimeTypeJSONRequest	line:89	type:time.Time
+Title	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	24;"	w	access:public	ctype:TodoCacheRec	line:24	type:string
+Title	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	26;"	w	access:public	ctype:TodoRecAddJSONRequest	line:26	type:string
+Title	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	42;"	w	access:public	ctype:TodoRec	line:42	type:string
+Title	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	67;"	w	access:public	ctype:TodoUpdateRec	line:67	type:string
+TodoCacheAddRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	197;"	f	access:public	line:197	signature:(pTmpRec *dataCacheModels.TodoCacheRec)	type:bool, uint32
+TodoCacheAddRecFromList	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	158;"	f	access:public	line:158	signature:(tmpRecList []dataCacheModels.TodoCacheRec)	type:bool
+TodoCacheCreateRecFromStruct	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	127;"	f	access:public	line:127	signature:(pTmpRec *dataCacheModels.TodoCacheRec)	type:*dataCacheModels.TodoCacheRec
+TodoCacheDeleteRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	523;"	f	access:public	line:523	signature:(todoID uint32)	type:bool
+TodoCacheGetList	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	280;"	f	access:public	line:280	signature:()	type:bool, []dataCacheModels.TodoCacheRec
+TodoCacheGetRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	235;"	f	access:public	line:235	signature:(todoID uint32)	type:bool, *dataCacheModels.TodoCacheRec
+TodoCacheGetRecCopy	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	250;"	f	access:public	line:250	signature:(todoID uint32)	type:bool, dataCacheModels.TodoCacheRec
+TodoCacheMap	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	32;"	t	access:public	line:32	type:map[uint32]*TodoCacheRec
+TodoCacheRDLock	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	38;"	f	access:public	line:38	signature:()
+TodoCacheRDUnlock	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	54;"	f	access:public	line:54	signature:()
+TodoCacheRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	22;"	t	access:public	line:22	type:struct
+TodoCacheReleaseRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	104;"	f	access:public	line:104	signature:(pRec *dataCacheModels.TodoCacheRec)
+TodoCacheUpdateDueDate	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	425;"	f	access:public	line:425	signature:(newDueDate time.Time, id uint32)	type:bool
+TodoCacheUpdateEDA	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	458;"	f	access:public	line:458	signature:(newEDA time.Time, id uint32)	type:bool
+TodoCacheUpdateRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	326;"	f	access:public	line:326	signature:(pTmpRec *dataCacheModels.TodoCacheRec)	type:bool
+TodoCacheUpdateShortDesc	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	391;"	f	access:public	line:391	signature:(newShortDesc string, id uint32)	type:bool
+TodoCacheUpdateStatus	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	491;"	f	access:public	line:491	signature:(status uint8, todoID uint32)	type:bool
+TodoCacheUpdateTitle	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	360;"	f	access:public	line:360	signature:(newTitle string, id uint32)	type:bool
+TodoCacheWRLock	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	70;"	f	access:public	line:70	signature:()
+TodoCacheWRUnlock	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	86;"	f	access:public	line:86	signature:()
+TodoRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	40;"	t	access:public	line:40	type:struct
+TodoRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	62;"	w	access:public	ctype:TodoRecGetJSONResponse	line:62	type:dataCacheModels.TodoCacheRec
+TodoRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	75;"	w	access:public	ctype:TodoRecUpdateJSONRequest	line:75	type:TodoUpdateRec
+TodoRecAddJSONRequest	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	25;"	t	access:public	line:25	type:struct
+TodoRecDeleteJSONRequest	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	100;"	t	access:public	line:100	type:struct
+TodoRecGetJSONRequest	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	56;"	t	access:public	line:56	type:struct
+TodoRecGetJSONResponse	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	59;"	t	access:public	line:59	type:struct
+TodoRecGetListJSONResponse	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	49;"	t	access:public	line:49	type:struct
+TodoRecList	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	52;"	w	access:public	ctype:TodoRecGetListJSONResponse	line:52	type:[]TodoRec
+TodoRecUpdateJSONRequest	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	73;"	t	access:public	line:73	type:struct
+TodoRecUpdateStatusJSONRequest	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	94;"	t	access:public	line:94	type:struct
+TodoRecUpdateStrTypeJSONRequest	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	80;"	t	access:public	line:80	type:struct
+TodoRecUpdateTimeTypeJSONRequest	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	87;"	t	access:public	line:87	type:struct
+TodoUpdateRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	66;"	t	access:public	line:66	type:struct
+WARNING	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	50;"	c	access:public	line:50	type:string
+WEBSERVICE	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	56;"	c	access:public	line:56	type:string
+XMLName	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	33;"	w	access:public	ctype:ConfigParams	line:33	type:xml.Name
+addTodoRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	30;"	f	access:private	line:30	signature:(responseWriter http.ResponseWriter, pReq *http.Request)
+appConstants	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go	16;"	p	line:16
+appRepo	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appRepo/appRepo.go	15;"	p	line:15
+bufio	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	7;"	i	line:7
+chanbuffLog	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	65;"	v	access:private	line:65	type:chan logmessage
+component	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	60;"	w	access:private	ctype:logmessage	line:60	type:string
+componentFlag	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	59;"	w	access:private	ctype:logmessage	line:59	type:int8
+config	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go	41;"	p	line:41
+config	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	18;"	p	line:18
+currentLogfileCnt	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	70;"	v	access:private	line:70	type:uint8
+dataCache	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCache.go	1;"	p	line:1
+dataCache	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCacheRepo.go	17;"	p	line:17
+dataCache	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	16;"	p	line:16
+dataCacheModels	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	15;"	p	line:15
+deleteTodoRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	576;"	f	access:private	line:576	signature:(responseWriter http.ResponseWriter, pReq *http.Request)
+dummyLogfile	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	72;"	v	access:private	line:72	type:string
+dumpServerLog	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	204;"	f	access:private	line:204	signature:(logMsg string)
+encoding/json	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	19;"	i	line:19
+encoding/xml	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go	44;"	i	line:44
+encoding/xml	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go	21;"	i	line:21
+fmt	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go	45;"	i	line:45
+fmt	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	5;"	i	line:5
+fmt	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	35;"	i	line:35
+fmt	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/webServer.go	18;"	i	line:18
+getFilePath	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	75;"	f	access:private	line:75	signature:(sourceFilePath string, defaultPath string)	type:bool, string
+getTodoRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	147;"	f	access:private	line:147	signature:(responseWriter http.ResponseWriter, pReq *http.Request)
+getTodoRecList	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	97;"	f	access:private	line:97	signature:(responseWriter http.ResponseWriter, pReq *http.Request)
+handleLogRotate	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	244;"	f	access:private	line:244	signature:()
+handleRequest	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/requestHandler.go	24;"	f	access:private	line:24	signature:(responseWriter http.ResponseWriter, pReq *http.Request)
+idAutoIncr	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCacheRepo.go	34;"	v	access:private	line:34	type:uint32
+io/ioutil	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go	46;"	i	line:46
+logfileNameList	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	71;"	v	access:private	line:71	type:[]string
+logger	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	32;"	p	line:32
+loglevel	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	52;"	v	access:private	line:52	type:map[string]uint8
+logmessage	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	58;"	t	access:private	line:58	type:struct
+logmsg	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	61;"	w	access:private	ctype:logmessage	line:61	type:string
+main	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	1;"	p	line:1
+main	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	20;"	f	access:private	line:20	signature:()
+net/http	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/requestHandler.go	18;"	i	line:18
+net/http	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	18;"	i	line:18
+net/http	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/webServer.go	20;"	i	line:20
+os	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go	47;"	i	line:47
+os	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	4;"	i	line:4
+os	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	36;"	i	line:36
+pServerLogFile	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	68;"	v	access:private	line:68	type:*os.File
+path/filepath	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go	48;"	i	line:48
+runtime	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go	49;"	i	line:49
+runtime	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	9;"	i	line:9
+runtime	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	37;"	i	line:37
+sagacity.com/appConstants	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	21;"	i	line:21
+sagacity.com/appRepo	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	12;"	i	line:12
+sagacity.com/appRepo	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	41;"	i	line:41
+sagacity.com/appRepo	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/webServer.go	22;"	i	line:22
+sagacity.com/config	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appRepo/appRepo.go	18;"	i	line:18
+sagacity.com/config	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	13;"	i	line:13
+sagacity.com/dataCache	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	15;"	i	line:15
+sagacity.com/dataCache	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	25;"	i	line:25
+sagacity.com/logger	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	14;"	i	line:14
+sagacity.com/logger	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCache.go	4;"	i	line:4
+sagacity.com/logger	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	22;"	i	line:22
+sagacity.com/logger	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/requestHandler.go	20;"	i	line:20
+sagacity.com/logger	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	22;"	i	line:22
+sagacity.com/logger	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/webServer.go	23;"	i	line:23
+sagacity.com/models/dataCacheModels	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCache.go	5;"	i	line:5
+sagacity.com/models/dataCacheModels	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCacheRepo.go	22;"	i	line:22
+sagacity.com/models/dataCacheModels	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	23;"	i	line:23
+sagacity.com/models/dataCacheModels	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	20;"	i	line:20
+sagacity.com/models/dataCacheModels	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	23;"	i	line:23
+sagacity.com/models/webDataModels	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	24;"	i	line:24
+sagacity.com/webServer	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	16;"	i	line:16
+strings	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go	50;"	i	line:50
+strings	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	8;"	i	line:8
+sync	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	10;"	i	line:10
+sync	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCacheRepo.go	20;"	i	line:20
+sync	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	19;"	i	line:19
+sync	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	39;"	i	line:39
+sync	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	19;"	i	line:19
+sync	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/webServer.go	19;"	i	line:19
+time	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go	6;"	i	line:6
+time	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go	20;"	i	line:20
+time	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go	38;"	i	line:38
+time	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go	18;"	i	line:18
+time	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	18;"	i	line:18
+todoCache	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCacheRepo.go	27;"	v	access:private	line:27	type:dataCacheModels.TodoCacheMap
+todoCacheLock	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCacheRepo.go	32;"	v	access:private	line:32	type:sync.RWMutex
+updateTodoRec	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	206;"	f	access:private	line:206	signature:(responseWriter http.ResponseWriter, pReq *http.Request)
+updateTodoRecDueDate	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	393;"	f	access:private	line:393	signature:(responseWriter http.ResponseWriter, pReq *http.Request)
+updateTodoRecEDA	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	454;"	f	access:private	line:454	signature:(responseWriter http.ResponseWriter, pReq *http.Request)
+updateTodoRecShortDesc	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	332;"	f	access:private	line:332	signature:(responseWriter http.ResponseWriter, pReq *http.Request)
+updateTodoRecStatus	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	515;"	f	access:private	line:515	signature:(responseWriter http.ResponseWriter, pReq *http.Request)
+updateTodoRecTitle	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	271;"	f	access:private	line:271	signature:(responseWriter http.ResponseWriter, pReq *http.Request)
+webDataModels	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go	15;"	p	line:15
+webServer	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/requestHandler.go	15;"	p	line:15
+webServer	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go	15;"	p	line:15
+webServer	/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/webServer.go	15;"	p	line:15

@@ -1,0 +1,16 @@
+https://play.golang.org/p/cbRl50QB_F
+
+
+clear ; curl -H "Content-Type: application/json" -X POST -d '{"title":"1st todo item", "status":0, "duedate":"2017-08-31T05:42:00.000Z", "eda":"2017-08-31T05:42:00.000Z", "shortdesc":"abcd efg"}' http://localhost:8080/addtodorec
+
+clear ; curl -H "Content-Type: application/json" -X POST -d '{"title":"2nd todo item", "status":0, "duedate":"2017-08-31T05:42:00.000Z", "eda":"2017-08-31T05:42:00.000Z", "shortdesc":"abcd efg"}' http://localhost:8080/addtodorec
+
+clear ; curl -H "Content-Type: application/json" -X POST -d '{"title":"4th todo item", "status":0, "duedate":"2017-08-31T05:42:00.000Z", "eda":"2017-08-31T05:42:00.000Z", "shortdesc":"abcd efg"}' http://localhost:8080/addtodorec
+
+clear ; curl -H "Content-Type: application/json" -X POST -d '{"title":"3rd todo item", "status":0, "duedate":"2017-08-31T05:42:00.000Z", "eda":"2017-08-31T05:42:00.000Z", "shortdesc":"abcd efg"}' http://localhost:8080/addtodorec
+
+clear ; curl -H "Content-Type: application/json" -X POST -d '{"todoid":4}' http://localhost:8080/gettodorec
+
+clear ; curl -H "Content-Type: application/json" -X POST http://localhost:8080/gettodoreclist
+
+clear ; curl -H "Content-Type: application/json" -X POST -d '{"todoid":2, "todorec":{"title":"updated 2nd todo item", "status":1, "duedate":"2017-08-31T05:42:00Z", "eda":"2017-08-31T05:42:00Z", "shortdesc":"0123456789"}}' http://localhost:8080/updatetodorec

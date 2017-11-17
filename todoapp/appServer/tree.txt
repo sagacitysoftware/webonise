@@ -1,0 +1,32 @@
+GOPATH => /home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer
+├── pkg
+├── quickbuild.linux.todoapp: a quick and dirty script for build and application deployment
+├── src
+│   └── sagacity.com: source package
+│       ├── appConstants: Constants' package
+│       │   └── webResponseMessages.go: REST API response (failure/success) messages
+│       ├── appLinux.config: Configurations (product-root, logs, server-port, etc.)
+│       ├── appRepo: package for global variables
+│       │   └── appRepo.go
+│       ├── config: configuration package
+│       │   ├── config.go: configuration parser
+│       │   └── configModel.go: model for configurations
+│       ├── coreServer.go: application starts here
+│       ├── dataCache: data-cache package
+│       │   ├── dataCache.go: init of data-cache
+│       │   ├── dataCacheRepo.go: variables available only for dataCache package
+│       │   └── todoCache.go: todo-cache APIs
+│       ├── logger: logger package
+│       │   └── logger.go: source for logger
+│       ├── models: models
+│       │   ├── dataCacheModels: data-cache models. todo-cache record model for now
+│       │   │   └── dataCacheModels.go: definition of todo-cache model
+│       │   └── webDataModels: web data communications models package
+│       │       └── webDataModels.go: web data communications models
+│       └── webServer: minimal webserver package
+│           ├── requestHandler.go: REST APIs are invoked in a switch case.
+│           ├── todoDataAPI.go: definitions for REST APIs
+│           └── webServer.go: call definitions.
+├── todoapp.sagacity.com
+
+13 directories, 31 files

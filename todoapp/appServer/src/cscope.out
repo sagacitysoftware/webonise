@@ -1,0 +1,6974 @@
+cscope 15 $HOME/SampleCode/SampleCodeGo/todoapp/appServer/src               0000041167
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go
+
+16 
+∑ckage
+ 
+≠pC⁄°™ts
+
+
+19 c⁄° 
+MSG_ERR_ADD_TODO_REC
+ 
+	g°rög
+ = "FailedÅoáddÅodo-record."
+
+20 c⁄° 
+MSG_SUCCESS_ADD_TODO_REC
+ 
+°rög
+ = "Todo-recordádded successfully."
+
+22 c⁄° 
+MSG_ERR_GET_TODO_REC
+ 
+°rög
+ = "FailedÅo fetchÅodo-record."
+
+23 c⁄° 
+MSG_SUCCESS_GET_TODO_REC
+ 
+°rög
+ = "FetchedÅodo-record successfully."
+
+25 c⁄° 
+MSG_ERR_GET_TODO_RECLIST
+ 
+°rög
+ = "FailedÅo fetchÅodo-list."
+
+26 c⁄° 
+MSG_SUCCESS_GET_TODO_RECLIST
+ 
+°rög
+ = "FetchedÅodo-list successfully."
+
+28 c⁄° 
+MSG_ERR_UPDATE_TODO_REC
+ 
+°rög
+ = "FailedÅo updateÅodo-record."
+
+29 c⁄° 
+MSG_SUCCESS_UPDATE_TODO_REC
+ 
+°rög
+ = "UpdatedÅodo-record successfully."
+
+31 c⁄° 
+MSG_ERR_UPDATE_TODO_REC_TITLE
+ 
+°rög
+ = "FailedÅo updateÅitle ofÅodo-record."
+
+32 c⁄° 
+MSG_SUCCESS_UPDATE_TODO_REC_TITLE
+ 
+°rög
+ = "UpdatedÅitle ofÅodo-record successfully."
+
+34 c⁄° 
+MSG_ERR_UPDATE_TODO_REC_SHORTDESC
+ 
+°rög
+ = "FailedÅo update short description ofÅodo-record."
+
+35 c⁄° 
+MSG_SUCCESS_UPDATE_TODO_REC_SHORTDESC
+ 
+°rög
+ = "Updated short description ofÅodo-record successfully."
+
+37 c⁄° 
+MSG_ERR_UPDATE_TODO_REC_DUEDATE
+ 
+°rög
+ = "FailedÅo update duedate ofÅodo-record."
+
+38 c⁄° 
+MSG_SUCCESS_UPDATE_TODO_REC_DUEDATE
+ 
+°rög
+ = "Updated duedate ofÅodo-record successfully."
+
+40 c⁄° 
+MSG_ERR_UPDATE_TODO_REC_EDA
+ 
+°rög
+ = "FailedÅo update EDA ofÅodo-record."
+
+41 c⁄° 
+MSG_SUCCESS_UPDATE_TODO_REC_EDA
+ 
+°rög
+ = "Updated EDA ofÅodo-record successfully."
+
+43 c⁄° 
+MSG_ERR_UPDATE_TODO_REC_STATUS
+ 
+°rög
+ = "FailedÅo update status ofÅodo-record."
+
+44 c⁄° 
+MSG_SUCCESS_UPDATE_TODO_REC_STATUS
+ 
+°rög
+ = "Updated status ofÅodo-record successfully."
+
+46 c⁄° 
+MSG_ERR_DELETE_TODO_REC
+ 
+°rög
+ = "FailedÅo deleteÅodo-record."
+
+47 c⁄° 
+MSG_SUCCESS_DELETE_TODO_REC
+ 
+°rög
+ = "DeletedÅodo-record successfully."
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appRepo/appRepo.go
+
+15 
+∑ckage
+ 
+≠pRïo
+
+
+17 
+imp‹t
+ (
+
+21 
+v¨
+ 
+PC⁄figP¨amëîs
+ *
+	gc⁄fig
+.
+	gC⁄figP¨ams
+
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go
+
+41 
+∑ckage
+ 
+c⁄fig
+
+
+43 
+imp‹t
+ (
+
+69 
+func
+ 
+Inô
+(Ë*
+	gC⁄figP¨ams
+ {
+
+70 
+	gdú
+, 
+	gîr
+ :
+fûï©h
+.
+Abs
+(fûï©h.
+Dú
+(
+os
+.
+Args
+[0]))
+
+72 
+îr
+ !
+nû
+ {
+
+73 
+fmt
+.
+Pröén
+(
+îr
+)
+
+76 
+fmt
+.
+Prötf
+("Cuºíàw‹kög dúe˘‹y: %s\n", 
+dú
+)
+
+78 
+v¨
+ 
+fûeSïî©‹
+ 
+°rög
+
+
+79 
+v¨
+ 
+c⁄figFûeName
+ 
+°rög
+
+
+81 
+	gru¡ime
+.
+	gGOOS
+ == "windows" {
+
+82 
+fûeSïî©‹
+ = "\\"
+
+83 
+c⁄figFûeName
+ = "appWin.config"
+
+85 
+	gfûeSïî©‹
+ = "/"
+
+86 
+c⁄figFûeName
+ = "appLinux.config"
+
+89 
+	gfûeP©hIãms
+ :[]
+°rög
+{
+dú
+, 
+c⁄figFûeName
+}
+
+91 
+fûeFuŒP©h
+ :
+°rögs
+.
+Joö
+(
+fûeP©hIãms
+, 
+fûeSïî©‹
+)
+
+93 
+	gfmt
+.
+Prötf
+("Ródög c⁄figuøti⁄ from fûe: %s\n", 
+fûeFuŒP©h
+)
+
+95 
+	gc⁄figXML
+, 
+	gîr
+ :
+os
+.
+O≥n
+(
+fûeFuŒP©h
+)
+
+97 
+îr
+ !
+nû
+ {
+
+98 
+fmt
+.
+Pröén
+("Error: Missing server configuration.")
+
+99 
+fmt
+.
+Pröén
+(
+îr
+)
+
+100 
+os
+.
+Exô
+(1)
+
+102 
+de„r
+ 
+c⁄figXML
+.
+Clo£
+()
+
+104 
+c⁄figP¨amëîs
+ :
+√w
+(
+C⁄figP¨ams
+)
+
+105 
+xmlD©a
+, 
+	g_
+ :
+ioutû
+.
+RódAŒ
+(
+c⁄figXML
+)
+
+106 
+xml
+.
+Unm¨shÆ
+(
+xmlD©a
+, 
+c⁄figP¨amëîs
+)
+
+108  
+	gc⁄figP¨amëîs
+
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go
+
+18 
+∑ckage
+ 
+c⁄fig
+
+
+20 
+imp‹t
+ (
+
+32 
+ty≥
+ 
+C⁄figP¨ams
+ struct {
+
+33 
+XMLName
+ 
+	mxml
+.
+	mName
+ `xml:"ConfigParams"`
+
+34 
+SîvîC⁄figP¨ams
+ 
+SîvîC⁄fig
+
+
+35 
+LogC⁄figP¨ams
+ 
+LogC⁄fig
+
+
+36 
+MysqlDBC⁄figP¨ams
+ 
+MysqlDBC⁄fig
+
+
+47 
+ty≥
+ 
+SîvîC⁄fig
+ struct {
+
+48 
+SîvîWebSockëP‹t
+ 
+öt16
+ `
+xml
+:"ServerWebSocketPort"`
+
+49 
+SîvîWebSîvi˚P‹t
+ 
+öt16
+ `
+xml
+:"ServerWebServicePort"`
+
+53 
+ty≥
+ 
+LogC⁄fig
+ struct {
+
+54 
+LogDú
+ 
+°rög
+ `
+xml
+:"LogDir"`
+
+55 
+LogFûeNamePªfix
+ 
+°rög
+ `
+xml
+:"LogFileNamePrefix"`
+
+56 
+LogFûe
+ 
+°rög
+ `
+xml
+:"LogFile"`
+
+57 
+LogLevñ
+ 
+°rög
+ `
+xml
+:"LogLevel"`
+
+58 
+LogFûeSize
+ 
+öt64
+ `
+xml
+:"LogFileSize"`
+
+59 
+LogMaxFûes
+ 
+öt8
+ `
+xml
+:"LogMaxFiles"`
+
+63 
+ty≥
+ 
+MysqlDBC⁄fig
+ struct {
+
+64 
+DBName
+ 
+°rög
+ `
+xml
+:"DBName"`
+
+65 
+DBSîvîName
+ 
+°rög
+ `
+xml
+:"DBServerName"`
+
+66 
+DBSîvîP‹t
+ 
+uöt16
+ `
+xml
+:"DBServerPort"`
+
+67 
+C⁄√˘i⁄Såög
+ 
+°rög
+ `
+xml
+:"ConnectionString"`
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go
+
+1 
+∑ckage
+ 
+maö
+
+
+3 
+imp‹t
+ (
+
+20 
+func
+ 
+	$maö
+() {
+
+21 
+ru¡ime
+.
+	`GOMAXPROCS
+‘u¡ime.
+	`NumCPU
+())
+
+22 
+v¨
+ 
+wg
+ 
+sync
+.
+WaôGroup
+
+
+23 
+wg
+.
+	`Add
+(2)
+
+25 
+≠pRïo
+.
+PC⁄figP¨amëîs
+ = 
+c⁄fig
+.
+	`Inô
+()
+
+26 
+loggî
+.
+	`Inô
+()
+
+28 
+go
+ 
+loggî
+.
+	`LogDi•©chî
+(&
+wg
+)
+
+30 
+isSuc˚ss
+ :
+d©aCache
+.
+	`Inô
+(); !isSuccess {
+
+31 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Couldn't create user-cache.")
+
+32 
+os
+.
+	`Exô
+(1)
+
+35 
+fmt
+.
+	`Prötf
+("SîvîWebSîvi˚P‹t: %d\n", 
+≠pRïo
+.
+PC⁄figP¨amëîs
+.
+SîvîC⁄figP¨ams
+.
+SîvîWebSîvi˚P‹t
+)
+
+37 
+go
+ 
+webSîvî
+.
+	`Inô
+(&
+wg
+)
+
+39 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+DEBUG
+, "Starting server.")
+
+41 
+time
+.
+	`SÀï
+—ime.
+Sec⁄d
+ * 3)
+
+42 
+v¨
+ 
+°rI≈ut
+ 
+°rög
+
+
+43 
+ªadî
+ :
+bufio
+.
+	`NewRódî
+(
+os
+.
+Stdö
+)
+
+44 
+fmt
+.
+	`Prötf
+("\nUserÑesponse:\n")
+
+46 
+fmt
+.
+	`Prötf
+("Do you wantÅoÅerminateÅheápplication: ")
+
+47 
+°rI≈ut
+, 
+_
+ = 
+ªadî
+.
+	`RódSåög
+('\n')
+
+50 
+°rI≈ut
+ = 
+°rögs
+.
+	`Rïœ˚
+(strInput, "\n", "", -1)
+
+52 
+°rI≈ut
+ {
+
+54 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+DEBUG
+, "SîvîÅîmö©ög o¿u£∏ª•⁄£: \"%s\".", 
+°rI≈ut
+)
+
+55 
+fmt
+.
+	`Prötf
+("SîvîÅîmö©ög o¿u£∏ª•⁄£: \"%s\"\n", 
+°rI≈ut
+)
+
+56 
+time
+.
+	`SÀï
+—ime.
+Sec⁄d
+ * 3)
+
+57 
+os
+.
+	`Exô
+(0)
+
+60 
+	}
+}
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCache.go
+
+1 
+∑ckage
+ 
+d©aCache
+
+
+3 
+imp‹t
+ (
+
+9 
+func
+ 
+	$Inô
+(Ë
+boﬁ
+ {
+
+10 
+todoCache
+ = 
+	`make
+(
+d©aCacheModñs
+.
+TodoCacheM≠
+)
+
+11 
+todoCache
+ =
+nû
+ {
+
+12 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "Couldn't createÅodo-cache.")
+
+13  
+Ál£
+
+
+16  
+åue
+
+
+17 
+	}
+}
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCacheRepo.go
+
+17 
+∑ckage
+ 
+d©aCache
+
+
+19 
+imp‹t
+ (
+
+27 
+v¨
+ 
+todoCache
+ 
+	gd©aCacheModñs
+.
+TodoCacheM≠
+
+
+32 
+v¨
+ 
+todoCacheLock
+ 
+	gsync
+.
+RWMuãx
+
+
+34 
+v¨
+ 
+idAutoIn¸
+ 
+	guöt32
+
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go
+
+16 
+∑ckage
+ 
+d©aCache
+
+
+18 
+imp‹t
+ (
+
+38 
+func
+ 
+	$TodoCacheRDLock
+() {
+
+39 
+todoCacheLock
+.
+	`RLock
+()
+
+40 
+	}
+}
+
+54 
+func
+ 
+	$TodoCacheRDU∆ock
+() {
+
+55 
+todoCacheLock
+.
+	`RU∆ock
+()
+
+56 
+	}
+}
+
+70 
+func
+ 
+	$TodoCacheWRLock
+() {
+
+71 
+todoCacheLock
+.
+	`Lock
+()
+
+72 
+	}
+}
+
+86 
+func
+ 
+	$TodoCacheWRU∆ock
+() {
+
+87 
+todoCacheLock
+.
+	`U∆ock
+()
+
+88 
+	}
+}
+
+104 
+func
+ 
+	$TodoCacheRñó£Rec
+(
+pRec
+ *
+d©aCacheModñs
+.
+TodoCacheRec
+) {
+
+105 i‡(
+pRec
+ !
+nû
+Ë&& (pRec.
+RecLock
+ !=Çil) {
+
+106 
+pRec
+.
+RecLock
+.
+	`U∆ock
+()
+
+107 
+pRec
+ = 
+nû
+
+
+109 
+	}
+}
+
+127 
+func
+ 
+TodoCacheCª©eRecFromSåu˘
+(
+pTmpRec
+ *
+d©aCacheModñs
+.
+TodoCacheRec
+Ë*
+	gd©aCacheModñs
+.
+	gTodoCacheRec
+ {
+
+128 
+	gpRec
+ :&
+d©aCacheModñs
+.
+TodoCacheRec
+ {
+
+129 
+TôÀ
+: 
+pTmpRec
+.Title,
+
+130 
+DueD©e
+: 
+pTmpRec
+.DueDate,
+
+131 
+EDA
+: 
+pTmpRec
+.EDA,
+
+132 
+Sh‹tDesc
+: 
+pTmpRec
+.ShortDesc,
+
+134 
+pRec
+.
+RecLock
+ = &
+sync
+.
+Muãx
+{}
+
+136  
+pRec
+
+
+158 
+func
+ 
+	$TodoCacheAddRecFromLi°
+(
+tmpRecLi°
+ []
+d©aCacheModñs
+.
+TodoCacheRec
+Ë
+boﬁ
+ {
+
+159 
+	`TodoCacheWRLock
+()
+
+160 
+de„r
+ 
+	`TodoCacheWRU∆ock
+()
+
+162 
+_
+, 
+todoCacheRec
+ :
+ønge
+ 
+tmpRecLi°
+ {
+
+163 
+idAutoIn¸
+ += 1
+
+164 
+pRec
+ :&
+d©aCacheModñs
+.
+TodoCacheRec
+ {
+
+165 
+ID
+: 
+idAutoIn¸
+,
+
+166 
+TôÀ
+: 
+todoCacheRec
+.Title,
+
+167 
+DueD©e
+: 
+todoCacheRec
+.DueDate,
+
+168 
+Sh‹tDesc
+: 
+todoCacheRec
+.ShortDesc,
+
+170 
+pRec
+.
+RecLock
+ = &
+sync
+.
+Muãx
+{}
+
+172 
+todoCache
+[
+idAutoIn¸
+] = 
+pRec
+
+
+175  
+åue
+
+
+176 
+	}
+}
+
+197 
+func
+ 
+	$TodoCacheAddRec
+(
+pTmpRec
+ *
+d©aCacheModñs
+.
+TodoCacheRec
+Ë(
+boﬁ
+, 
+uöt32
+) {
+
+198 
+	`TodoCacheWRLock
+()
+
+199 
+de„r
+ 
+	`TodoCacheWRU∆ock
+()
+
+201 
+pRec
+, 
+ok
+ :
+todoCache
+[
+pTmpRec
+.
+ID
+]
+
+202 
+ok
+ =
+åue
+ {
+
+203 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+WARNING
+, "d©aCacheModñs.TodoCacheRe¯todo-ID.«me: %d.%†ÆªadyÉxi°s.", 
+pRec
+.
+ID
+,ÖRec.
+TôÀ
+)
+
+204  
+åue
+, 0
+
+207 
+pRec
+ = 
+	`TodoCacheCª©eRecFromSåu˘
+(
+pTmpRec
+)
+
+208 
+idAutoIn¸
+ += 1
+
+209 
+pRec
+.
+ID
+ = 
+idAutoIn¸
+
+
+210 
+todoCache
+[
+idAutoIn¸
+] = 
+pRec
+
+
+211 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+DEBUG
+, "d©aCacheModñs.TodoCacheRe¯todo-ID.«me: %d.%†added suc˚ssfuŒy.", 
+pRec
+.
+ID
+,ÖRec.
+TôÀ
+)
+
+213  
+åue
+, 
+pRec
+.
+ID
+
+
+214 
+	}
+}
+
+235 
+func
+ 
+	$TodoCacheGëRec
+(
+todoID
+ 
+uöt32
+Ë(
+boﬁ
+, *
+d©aCacheModñs
+.
+TodoCacheRec
+) {
+
+236 
+	`TodoCacheRDLock
+()
+
+237 
+de„r
+ 
+	`TodoCacheRDU∆ock
+()
+
+239 
+pRec
+, 
+isOK
+ :
+todoCache
+[
+todoID
+]
+
+240 !
+isOK
+ {
+
+241 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "todoCache-ªc‹d wôh ID: %d d€¢'àexi°.", 
+todoID
+)
+
+242  
+Ál£
+, 
+nû
+
+
+245 
+pRec
+.
+RecLock
+.
+	`Lock
+()
+
+247  
+åue
+, 
+pRec
+
+
+248 
+	}
+}
+
+250 
+func
+ 
+	$TodoCacheGëRecC›y
+(
+todoID
+ 
+uöt32
+Ë(
+boﬁ
+, 
+d©aCacheModñs
+.
+TodoCacheRec
+) {
+
+251 
+isOK
+, 
+pRec
+ :
+	`TodoCacheGëRec
+(
+todoID
+)
+
+252 !
+isOK
+ {
+
+253 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "todo-ˇchêªc‹d f‹ ID %d d€¢'àexi°.", 
+todoID
+)
+
+254  
+Ál£
+, 
+d©aCacheModñs
+.
+TodoCacheRec
+{}
+
+257 
+ªc
+ :*
+pRec
+
+
+258 
+	`TodoCacheRñó£Rec
+(
+pRec
+)
+
+260  
+åue
+, 
+ªc
+
+
+261 
+	}
+}
+
+280 
+func
+ 
+	$TodoCacheGëLi°
+(Ë(
+boﬁ
+, []
+d©aCacheModñs
+.
+TodoCacheRec
+) {
+
+281 
+	`TodoCacheWRLock
+()
+
+282 
+de„r
+ 
+	`TodoCacheWRU∆ock
+()
+
+284 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+DEBUG
+, "todo-ˇche-Àn: %d", 
+	`Àn
+(
+todoCache
+))
+
+286 
+	`Àn
+(
+todoCache
+) < 1 {
+
+287 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+WARNING
+, "emptyÅodo-cache")
+
+288  
+Ál£
+, []
+d©aCacheModñs
+.
+TodoCacheRec
+{}
+
+291 
+todoCacheRecLi°
+ :
+	`make
+([]
+d©aCacheModñs
+.
+TodoCacheRec
+, 
+	`Àn
+(
+todoCache
+))
+
+292 
+todoCacheRecLi°
+ =
+nû
+ {
+
+293 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "FailedÅo createÅodo-cacheÑeclist.")
+
+294  
+Ál£
+, []
+d©aCacheModñs
+.
+TodoCacheRec
+{}
+
+297 
+i
+ := 0
+
+298 
+key
+, 
+pRec
+ :
+ønge
+ 
+todoCache
+ {
+
+299 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+DEBUG
+, "[key: %d]:Åodo-ˇche-ªc: %#v", 
+key
+, *
+pRec
+)
+
+300 
+todoCacheRecLi°
+[
+i
+] = *
+pRec
+
+
+301 
+i
+++
+
+304  
+åue
+, 
+todoCacheRecLi°
+
+
+305 
+	}
+}
+
+326 
+func
+ 
+	$TodoCacheUpd©eRec
+(
+pTmpRec
+ *
+d©aCacheModñs
+.
+TodoCacheRec
+Ë
+boﬁ
+ {
+
+327 
+isOK
+, 
+pRec
+ :
+	`TodoCacheGëRec
+(
+pTmpRec
+.
+ID
+)
+
+328 
+	`TodoCacheRñó£Rec
+(
+pRec
+)
+
+329 !
+isOK
+ {
+
+330 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "todoCachêªc‹d f‹ ID: %d d€¢'àexi°.", 
+pTmpRec
+.
+ID
+)
+
+331  
+Ál£
+
+
+334 
+pRec
+.
+TôÀ
+ = 
+pTmpRec
+.Title
+
+335 
+pRec
+.
+DueD©e
+ = 
+pTmpRec
+.DueDate
+
+336 
+pRec
+.
+Sètus
+ = 
+pTmpRec
+.Status
+
+337 
+pRec
+.
+Com∂ëedOn
+ = 
+pTmpRec
+.CompletedOn
+
+338 
+pRec
+.
+Sh‹tDesc
+ = 
+pTmpRec
+.ShortDesc
+
+340 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+DEBUG
+, "d©aCacheModñs.TodoCacheRe¯todoID: %d upd©ed suc˚ssfuŒy.", 
+pTmpRec
+.
+ID
+)
+
+342  
+åue
+
+
+343 
+	}
+}
+
+360 
+func
+ 
+	$TodoCacheUpd©eTôÀ
+(
+√wTôÀ
+ 
+°rög
+, 
+id
+ 
+uöt32
+Ë
+boﬁ
+ {
+
+361 
+isOK
+, 
+pRec
+ :
+	`TodoCacheGëRec
+(
+id
+)
+
+362 
+	`TodoCacheRñó£Rec
+(
+pRec
+)
+
+363 !
+isOK
+ {
+
+364 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "todoCachêªc‹d f‹ ID: %d d€¢'àexi°.", 
+id
+)
+
+365  
+Ál£
+
+
+368 
+pRec
+.
+TôÀ
+ = 
+√wTôÀ
+
+
+369 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "TôÀ o‡todo-ˇchêªc‹d upd©ed. ID.TôÀ :: %d.%s.", 
+id
+, 
+√wTôÀ
+)
+
+371  
+åue
+
+
+372 
+	}
+}
+
+391 
+func
+ 
+	$TodoCacheUpd©eSh‹tDesc
+(
+√wSh‹tDesc
+ 
+°rög
+, 
+id
+ 
+uöt32
+Ë
+boﬁ
+ {
+
+392 
+isOK
+, 
+pRec
+ :
+	`TodoCacheGëRec
+(
+id
+)
+
+393 
+	`TodoCacheRñó£Rec
+(
+pRec
+)
+
+394 !
+isOK
+ {
+
+395 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "todo-ˇchêªc‹d f‹ ID: %d d€¢'àexi°.", 
+id
+)
+
+396  
+Ál£
+
+
+399 
+pRec
+.
+Sh‹tDesc
+ = 
+√wSh‹tDesc
+
+
+400 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "Sh‹tDes¯o‡todo-ˇchêªc‹d upd©ed. ID.Sh‹tDes¯:: %d.%s.", 
+id
+, 
+√wSh‹tDesc
+)
+
+402  
+åue
+
+
+403 
+	}
+}
+
+425 
+func
+ 
+	$TodoCacheUpd©eDueD©e
+(
+√wDueD©e
+ 
+time
+.
+Time
+, 
+id
+ 
+uöt32
+Ë
+boﬁ
+ {
+
+426 
+isOK
+, 
+pRec
+ :
+	`TodoCacheGëRec
+(
+id
+)
+
+427 
+	`TodoCacheRñó£Rec
+(
+pRec
+)
+
+428 !
+isOK
+ {
+
+429 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "todo-ˇchêªc‹d f‹ ID: %d d€¢'àexi°.", 
+id
+)
+
+430  
+Ál£
+
+
+433 
+pRec
+.
+DueD©e
+ = 
+√wDueD©e
+
+
+434 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "Sh‹tDes¯o‡todo-ˇchêªc‹d upd©ed. ID.DueD©ê:: %d.%v.", 
+id
+, 
+√wDueD©e
+.
+	`F‹m©
+("02-Jan-2006::15:04:05"))
+
+436  
+åue
+
+
+437 
+	}
+}
+
+458 
+func
+ 
+	$TodoCacheUpd©eEDA
+(
+√wEDA
+ 
+time
+.
+Time
+, 
+id
+ 
+uöt32
+Ë
+boﬁ
+ {
+
+459 
+isOK
+, 
+pRec
+ :
+	`TodoCacheGëRec
+(
+id
+)
+
+460 
+	`TodoCacheRñó£Rec
+(
+pRec
+)
+
+461 !
+isOK
+ {
+
+462 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "todo-ˇchêªc‹d f‹ ID: %d d€¢'àexi°.", 
+id
+)
+
+463  
+Ál£
+
+
+466 
+pRec
+.
+EDA
+ = 
+√wEDA
+
+
+467 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "Sh‹tDes¯o‡todo-ˇchêªc‹d upd©ed. ID.DueD©ê:: %d.%v.", 
+id
+, 
+√wEDA
+.
+	`F‹m©
+("02-Jan-2006::15:04:05"))
+
+469  
+åue
+
+
+470 
+	}
+}
+
+491 
+func
+ 
+	$TodoCacheUpd©eSètus
+(
+°©us
+ 
+uöt8
+, 
+todoID
+ 
+uöt32
+Ë
+boﬁ
+ {
+
+492 
+isOK
+, 
+pRec
+ :
+	`TodoCacheGëRec
+(
+todoID
+)
+
+493 
+de„r
+ 
+	`TodoCacheRñó£Rec
+(
+pRec
+)
+
+494 !
+isOK
+ {
+
+495 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "todoCachêªc‹d f‹ ID: %d d€¢'àexi°.", 
+todoID
+)
+
+496  
+Ál£
+
+
+499 
+pRec
+.
+Sètus
+ = 
+°©us
+
+
+500 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+ERROR
+, "todoCachêªc‹d sètu†upd©ed, ID.°©us: %d.%d", 
+todoID
+, 
+°©us
+)
+
+502  
+åue
+
+
+503 
+	}
+}
+
+523 
+func
+ 
+	$TodoCacheDñëeRec
+(
+todoID
+ 
+uöt32
+Ë
+boﬁ
+ {
+
+524 
+	`TodoCacheWRLock
+()
+
+525 
+de„r
+ 
+	`TodoCacheWRU∆ock
+()
+
+527 
+_
+, 
+isOK
+ :
+todoCache
+[
+todoID
+]; !isOK {
+
+528 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+WARNING
+, "todoCachêªc‹d f‹ ID: %d d€¢'àexi°.", 
+todoID
+)
+
+529  
+åue
+
+
+532 
+	`dñëe
+(
+todoCache
+, 
+todoID
+)
+
+533 
+loggî
+.
+	`Log
+÷oggî.
+CORESERVER
+,Üoggî.
+DEBUG
+, "todoCachêªc‹d f‹ ID: %d dñëed.", 
+todoID
+)
+
+535  
+åue
+
+
+536 
+	}
+}
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go
+
+32 
+∑ckage
+ 
+loggî
+
+
+34 
+imp‹t
+ (
+
+44 c⁄° 
+DEFAULTGOPATH
+ 
+	g°rög
+ = "/appServer/src"
+
+47 c⁄° 
+DEBUG
+ 
+°rög
+ = "DEBUG"
+
+48 c⁄° 
+ERROR
+ 
+°rög
+ = "ERROR"
+
+49 c⁄° 
+INFO
+ 
+°rög
+ = "INFO"
+
+50 c⁄° 
+WARNING
+ 
+°rög
+ = "WARNING"
+
+52 
+v¨
+ 
+logÀvñ
+ 
+m≠
+[
+°rög
+]
+uöt8
+
+
+55 c⁄° 
+CORESERVER
+ 
+°rög
+ = "CORESERVER"
+
+56 c⁄° 
+WEBSERVICE
+ 
+°rög
+ = "WEBSERVICE"
+
+58 
+ty≥
+ 
+logmesßge
+ struct {
+
+59 
+comp⁄ítFœg
+ 
+öt8
+
+
+60 
+comp⁄ít
+ 
+°rög
+
+
+61 
+logmsg
+ 
+°rög
+
+
+65 
+v¨
+ 
+ch™buffLog
+ 
+ch™
+ 
+logmesßge
+
+
+68 
+v¨
+ 
+pSîvîLogFûe
+ *
+os
+.
+Fûe
+
+
+70 
+v¨
+ 
+cuºítLogfûeC¡
+ 
+uöt8
+ = 1
+
+71 
+v¨
+ 
+logfûeNameLi°
+ []
+°rög
+
+
+72 
+v¨
+ 
+dummyLogfûe
+ 
+°rög
+
+
+75 
+func
+ 
+	$gëFûeP©h
+(
+sour˚FûeP©h
+ 
+°rög
+, 
+deÁu…P©h
+ såögË(
+boﬁ
+, string) {
+
+76 
+fûeP©h
+ := ""
+
+77 
+	`Àn
+(
+deÁu…P©h
+Ë>Üí(
+sour˚FûeP©h
+) {
+
+78  
+Ál£
+, 
+fûeP©h
+
+
+81 
+Àngth
+ :
+	`Àn
+(
+sour˚FûeP©h
+Ë-Üí(
+deÁu…P©h
+)
+
+82 
+v¨
+ 
+i
+ 
+
+83 
+i
+ = 0; i < 
+Àngth
+ ; i++ {
+
+84 
+sour˚FûeP©h
+[
+i
+] =
+deÁu…P©h
+[0] {
+
+85 
+sour˚FûeP©h
+[
+i
+ : i + 
+	`Àn
+(
+deÁu…P©h
+)] == defaultPath {
+
+91  
+åue
+, 
+sour˚FûeP©h
+[
+i
+ + 
+	`Àn
+(
+deÁu…P©h
+) :Üen(sourceFilePath)]
+
+92 
+	}
+}
+
+119 
+func
+ 
+Log
+(
+°rcomp⁄ít
+ 
+°rög
+, 
+logÀvñSå
+ såög, 
+msg
+ såög, 
+¨gs
+ ...
+öãrÁ˚
+{}) {
+
+120 
+	g≠pRïo
+.
+	gPC⁄figP¨amëîs
+ =
+nû
+ {
+
+121 
+fmt
+.
+Prötf
+("ERROR: Empty server configurations.\n")
+
+122 
+os
+.
+Exô
+(1)
+
+125 
+c⁄figLogÀvñVÆ
+ :
+uöt8
+(
+logÀvñ
+[
+≠pRïo
+.
+PC⁄figP¨amëîs
+.
+LogC⁄figP¨ams
+.
+LogLevñ
+])
+
+126 
+msgLogÀvñVÆ
+ :
+logÀvñ
+[
+logÀvñSå
+]
+
+127 
+msgLogÀvñVÆ
+ < 
+c⁄figLogÀvñVÆ
+ {
+
+131 
+t
+ :
+time
+.
+Now
+()
+
+132 
+z⁄íame
+, 
+	g_
+ :
+t
+.
+In
+(
+time
+.
+Loˇl
+).
+Z⁄e
+()
+
+133 
+msgTimeSèmp
+ :
+fmt
+.
+S¥ötf
+("%02d-%02d-%d:%02d-%02d-%02d-%06d-%s", 
+t
+.
+Day
+(),Å.
+M⁄th
+(),Å.
+Yór
+(),Å.
+Hour
+(),Å.
+Möuã
+(),Å.
+Sec⁄d
+(),Å.
+N™o£c⁄d
+(), 
+z⁄íame
+)
+
+135 
+	gpc
+, 
+	g‚
+, 
+	glöe
+, 
+	g_
+ :
+ru¡ime
+.
+CÆÀr
+(1)
+
+136 
+_
+, 
+	gfûeP©h
+ :
+gëFûeP©h
+(
+‚
+, 
+DEFAULTGOPATH
+)
+
+138 
+	glogMsg
+ :
+fmt
+.
+S¥ötf
+("[%s] [%s] [%s] [%s: %d] [%s]:\n", 
+°rcomp⁄ít
+, 
+msgTimeSèmp
+, 
+logÀvñSå
+, 
+fûeP©h
+, 
+löe
+, 
+ru¡ime
+.
+FuncF‹PC
+(
+pc
+).
+Name
+())
+
+139 
+	glogMsg
+ = 
+fmt
+.
+S¥ötf
+(
+logMsg
++
+msg
+, 
+¨gs
+...)
+
+140 
+	glogMsg
+ = 
+logMsg
+ + "\n"
+
+141 
+logMesßge
+ :
+logmesßge
+{
+
+142 
+comp⁄ítFœg
+: 0,
+
+143 
+comp⁄ít
+: 
+°rcomp⁄ít
+,
+
+144 
+logmsg
+: 
+logMsg
+,
+
+147 
+ch™buffLog
+ <- 
+logMesßge
+
+
+174 
+func
+ 
+	$LogDi•©chî
+(
+pVromWG
+ *
+sync
+.
+WaôGroup
+) {
+
+175 
+de„r
+ 
+pVromWG
+.
+	`D⁄e
+()
+
+178 
+£À˘
+ {
+
+179 
+logMsg
+ :<-
+ch™buffLog
+:
+
+180 
+	`dumpSîvîLog
+(
+logMsg
+.
+logmsg
+)
+
+184 
+	}
+}
+
+204 
+func
+ 
+	$dumpSîvîLog
+(
+logMsg
+ 
+°rög
+) {
+
+205 
+pSîvîLogFûe
+ =
+nû
+ {
+
+206 
+fmt
+.
+	`Pröén
+("Error:Çil file handler.")
+
+207 
+os
+.
+	`Exô
+(1)
+
+210 
+pSîvîLogFûe
+.
+	`WrôeSåög
+(
+logMsg
+)
+
+211 
+fmt
+.
+	`Prötf
+(
+logMsg
+)
+
+213 
+fi
+, 
+îr
+ :
+pSîvîLogFûe
+.
+	`Sèt
+()
+
+214 
+îr
+ !
+nû
+ {
+
+215 
+fmt
+.
+	`Prötf
+("Couldn'àobèö sèt, h™dÀÉº‹: %s\n", 
+îr
+.
+	`Eº‹
+())
+
+219 
+fûeSize
+ :
+fi
+.
+	`Size
+()
+
+220 
+fûeSize
+ >
+≠pRïo
+.
+PC⁄figP¨amëîs
+.
+LogC⁄figP¨ams
+.
+LogFûeSize
+ {
+
+221 
+pSîvîLogFûe
+.
+	`Clo£
+()
+
+222 
+pSîvîLogFûe
+ = 
+nû
+
+
+223 
+îr
+ = 
+os
+.
+	`Ríame
+(
+logfûeNameLi°
+[0], 
+dummyLogfûe
+)
+
+224 
+îr
+ !
+nû
+ {
+
+225 
+fmt
+.
+	`Pröén
+("îr‹ whûêmv %†tÿ%s: ", 
+logfûeNameLi°
+[0], 
+dummyLogfûe
+, 
+îr
+.
+	`Eº‹
+())
+
+226 
+pSîvîLogFûe
+, 
+îr
+ = 
+os
+.
+	`O≥nFûe
+(
+logfûeNameLi°
+[0], os.
+O_RDWR
+ | os.
+O_APPEND
+ | os.
+O_CREATE
+, 0644)
+
+230 
+pSîvîLogFûe
+, 
+îr
+ = 
+os
+.
+	`O≥nFûe
+(
+logfûeNameLi°
+[0], os.
+O_RDWR
+ | os.
+O_APPEND
+ | os.
+O_CREATE
+, 0644)
+
+231 
+îr
+ !
+nû
+ {
+
+232 
+fmt
+.
+	`Prötf
+("Eº‹ whûêª¸ótögÜogfûe: %s,Éº‹: %s\n", 
+logfûeNameLi°
+[0], 
+îr
+.
+	`Eº‹
+())
+
+236 
+cuºítLogfûeC¡
+ < 10 {
+
+237 
+cuºítLogfûeC¡
+ = currentLogfileCnt + 1
+
+240 
+go
+ 
+	`h™dÀLogRŸ©e
+()
+
+242 
+	}
+}
+
+244 
+func
+ 
+	$h™dÀLogRŸ©e
+() {
+
+245 
+i
+ :
+cuºítLogfûeC¡
+; i > 2; i-- {
+
+246 
+îr
+ :
+os
+.
+	`Ríame
+(
+logfûeNameLi°
+[
+i
+ - 2],ÜogfileNameList[i - 1])
+
+247 
+îr
+ !
+nû
+ {
+
+248 
+fmt
+.
+	`Pröén
+("îr‹ whûêmv %†tÿ%s.Éº‹: %s\n", 
+logfûeNameLi°
+[
+i
+ - 2],ÜogfûeNameLi°[ò- 1], 
+îr
+.
+	`Eº‹
+())
+
+253 
+îr
+ :
+os
+.
+	`Ríame
+(
+dummyLogfûe
+, 
+logfûeNameLi°
+[1])
+
+254 
+îr
+ !
+nû
+ {
+
+255 
+fmt
+.
+	`Pröén
+("îr‹ whûêmv %†tÿ%s.Éº‹: %s\n", 
+dummyLogfûe
+, 
+logfûeNameLi°
+[1], 
+îr
+.
+	`Eº‹
+())
+
+258 
+	}
+}
+
+260 
+func
+ 
+	$Inô
+() {
+
+261 
+≠pRïo
+.
+PC⁄figP¨amëîs
+ =
+nû
+ {
+
+262 
+fmt
+.
+	`Prötf
+("ERROR: Empty server configurations.\n")
+
+263 
+os
+.
+	`Exô
+(1)
+
+266 
+logfûeNameLi°
+ = 
+	`make
+([]
+°rög
+, 
+≠pRïo
+.
+PC⁄figP¨amëîs
+.
+LogC⁄figP¨ams
+.
+LogMaxFûes
+)
+
+267 
+dummyLogfûe
+ = 
+≠pRïo
+.
+PC⁄figP¨amëîs
+.
+LogC⁄figP¨ams
+.
+LogFûe
+ + ".1.dummy"
+
+269 
+ch™buffLog
+ = 
+	`make
+(
+ch™
+ 
+logmesßge
+, 10)
+
+270 
+v¨
+ 
+îr
+ 
+îr‹
+
+
+272 
+logFûe
+ :
+≠pRïo
+.
+PC⁄figP¨amëîs
+.
+LogC⁄figP¨ams
+.
+LogFûe
+ + ".1"
+
+273 
+pSîvîLogFûe
+, 
+îr
+ = 
+os
+.
+	`O≥nFûe
+(
+logFûe
+, os.
+O_RDWR
+ | os.
+O_APPEND
+ | os.
+O_CREATE
+, 0644)
+
+274 
+îr
+ !
+nû
+ {
+
+275 
+fmt
+.
+	`Prötf
+("Eº‹ whûê¸ótögÜogfûe: %s, Eº‹: %s\n", 
+logFûe
+, 
+îr
+.
+	`Eº‹
+())
+
+276 
+os
+.
+	`Exô
+(1)
+
+279 
+logÀvñ
+ = 
+	`make
+(
+m≠
+[
+°rög
+]
+uöt8
+)
+
+280 
+logÀvñ
+["DEBUG"] = 
+	`uöt8
+(0)
+
+281 
+logÀvñ
+["INFO"] = 
+	`uöt8
+(1)
+
+282 
+logÀvñ
+["WARNING"] = 
+	`uöt8
+(2)
+
+283 
+logÀvñ
+["ERROR"] = 
+	`uöt8
+(3)
+
+285 
+i
+ :
+	`öt8
+(0); i < 
+≠pRïo
+.
+PC⁄figP¨amëîs
+.
+LogC⁄figP¨ams
+.
+LogMaxFûes
+; i++ {
+
+286 
+logfûeNameLi°
+[
+i
+] = 
+fmt
+.
+	`S¥ötf
+("%s.%d", 
+≠pRïo
+.
+PC⁄figP¨amëîs
+.
+LogC⁄figP¨ams
+.
+LogFûe
+, i + 1)
+
+294 
+	}
+}
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go
+
+15 
+∑ckage
+ 
+d©aCacheModñs
+
+
+17 
+imp‹t
+ (
+
+22 
+ty≥
+ 
+TodoCacheRec
+ struct {
+
+23 
+ID
+ 
+	muöt32
+ `
+	mjs⁄
+:"todoid"`
+
+24 
+TôÀ
+ 
+°rög
+ `
+js⁄
+:"title"`
+
+25 
+Sètus
+ 
+uöt8
+ `
+js⁄
+:"status"`
+
+26 
+DueD©e
+ 
+time
+.
+Time
+ `
+js⁄
+:"duedate"`
+
+27 
+EDA
+ 
+time
+.
+Time
+ `
+js⁄
+:"eda"`
+
+28 
+Com∂ëedOn
+ 
+time
+.
+Time
+ `
+js⁄
+:"completedon"`
+
+29 
+Sh‹tDesc
+ 
+°rög
+ `
+js⁄
+:"shortdesc"`
+
+30 
+RecLock
+ *
+sync
+.
+Muãx
+
+
+32 
+ty≥
+ 
+TodoCacheM≠
+ 
+m≠
+[
+uöt32
+]*
+TodoCacheRec
+
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go
+
+15 
+∑ckage
+ 
+webD©aModñs
+
+
+17 
+imp‹t
+ (
+
+25 
+ty≥
+ 
+TodoRecAddJSONReque°
+ struct {
+
+26 
+TôÀ
+ 
+	m°rög
+ `
+	mjs⁄
+:"title"`
+
+27 
+Sètus
+ 
+uöt8
+ `
+js⁄
+:"status"`
+
+28 
+DueD©e
+ 
+time
+.
+Time
+ `
+js⁄
+:"duedate"`
+
+29 
+EDA
+ 
+time
+.
+Time
+ `
+js⁄
+:"eda"`
+
+30 
+Sh‹tDesc
+ 
+°rög
+ `
+js⁄
+:"shortdesc"`
+
+33 
+ty≥
+ 
+AddJSONRe•⁄£
+ struct {
+
+34 
+Suc˚ss
+ 
+boﬁ
+ `
+js⁄
+:"success"`
+
+35 
+Mesßge
+ 
+°rög
+ `
+js⁄
+:"message"`
+
+36 
+ID
+ 
+uöt32
+ `
+js⁄
+:"todoid"`
+
+40 
+ty≥
+ 
+TodoRec
+ struct {
+
+41 
+ID
+ 
+uöt32
+ `
+js⁄
+:"todoid"`
+
+42 
+TôÀ
+ 
+°rög
+ `
+js⁄
+:"title"`
+
+43 
+Sètus
+ 
+uöt8
+ `
+js⁄
+:"status"`
+
+44 
+DueD©e
+ 
+time
+.
+Time
+ `
+js⁄
+:"duedate"`
+
+45 
+EDA
+ 
+time
+.
+Time
+ `
+js⁄
+:"eda"`
+
+46 
+Com∂ëedOn
+ 
+time
+.
+Time
+ `
+js⁄
+:"completedon"`
+
+47 
+Sh‹tDesc
+ 
+°rög
+ `
+js⁄
+:"shortdesc"`
+
+49 
+ty≥
+ 
+TodoRecGëLi°JSONRe•⁄£
+ struct {
+
+50 
+Suc˚ss
+ 
+boﬁ
+ `
+js⁄
+:"success"`
+
+51 
+Mesßge
+ 
+°rög
+ `
+js⁄
+:"message"`
+
+52 
+TodoRecLi°
+ []
+TodoRec
+ `
+js⁄
+"todoreclist"`
+
+56 
+ty≥
+ 
+TodoRecGëJSONReque°
+ struct {
+
+57 
+ID
+ 
+uöt32
+ `
+js⁄
+:"todoid"`
+
+59 
+ty≥
+ 
+TodoRecGëJSONRe•⁄£
+ struct {
+
+60 
+Suc˚ss
+ 
+boﬁ
+ `
+js⁄
+:"success"`
+
+61 
+Mesßge
+ 
+°rög
+ `
+js⁄
+:"message"`
+
+62 
+TodoRec
+ 
+d©aCacheModñs
+.
+TodoCacheRec
+ `
+js⁄
+:"todorec"`
+
+66 
+ty≥
+ 
+TodoUpd©eRec
+ struct {
+
+67 
+TôÀ
+ 
+°rög
+ `
+js⁄
+:"title"`
+
+68 
+Sètus
+ 
+uöt8
+ `
+js⁄
+:"status"`
+
+69 
+DueD©e
+ 
+time
+.
+Time
+ `
+js⁄
+:"duedate"`
+
+70 
+EDA
+ 
+time
+.
+Time
+ `
+js⁄
+:"eda"`
+
+71 
+Sh‹tDesc
+ 
+°rög
+ `
+js⁄
+:"shortdesc"`
+
+73 
+ty≥
+ 
+TodoRecUpd©eJSONReque°
+ struct {
+
+74 
+ID
+ 
+uöt32
+ `
+js⁄
+:"todoid"`
+
+75 
+TodoRec
+ 
+TodoUpd©eRec
+ `
+js⁄
+:"todorec"`
+
+80 
+ty≥
+ 
+TodoRecUpd©eSåTy≥JSONReque°
+ struct {
+
+81 
+ID
+ 
+uöt32
+ `
+js⁄
+:"todoid"`
+
+82 
+SåVÆ
+ 
+°rög
+ `
+js⁄
+:"strval"`
+
+87 
+ty≥
+ 
+TodoRecUpd©eTimeTy≥JSONReque°
+ struct {
+
+88 
+ID
+ 
+uöt32
+ `
+js⁄
+:"todoid"`
+
+89 
+TimeVÆ
+ 
+time
+.
+Time
+ `
+js⁄
+:"timeval"`
+
+94 
+ty≥
+ 
+TodoRecUpd©eSètusJSONReque°
+ struct {
+
+95 
+ID
+ 
+uöt32
+ `
+js⁄
+:"todoid"`
+
+96 
+Sètus
+ 
+uöt8
+ `
+js⁄
+:"status"`
+
+100 
+ty≥
+ 
+TodoRecDñëeJSONReque°
+ struct {
+
+101 
+ID
+ 
+uöt32
+ `
+js⁄
+:"todoid"`
+
+104 
+ty≥
+ 
+GíîicRe•⁄£
+ struct {
+
+105 
+Suc˚ss
+ 
+boﬁ
+ `
+js⁄
+:"success"`
+
+106 
+Mesßge
+ 
+°rög
+ `
+js⁄
+:"message"`
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/requestHandler.go
+
+15 
+∑ckage
+ 
+webSîvî
+
+
+17 
+imp‹t
+ (
+
+24 
+func
+ 
+	$h™dÀReque°
+(
+ª•⁄£Wrôî
+ 
+hâp
+.
+Re•⁄£Wrôî
+, 
+pReq
+ *hâp.
+Reque°
+) {
+
+25 
+pReq
+.
+Mëhod
+ {
+
+30 
+pReq
+.
+Reque°URI
+ {
+
+32 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "hitáddtodorec.")
+
+33 
+	`addTodoRec
+(
+ª•⁄£Wrôî
+, 
+pReq
+)
+
+37 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "hitáddtodorec.")
+
+38 
+	`gëTodoRecLi°
+(
+ª•⁄£Wrôî
+, 
+pReq
+)
+
+42 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "hitáddtodorec.")
+
+43 
+	`gëTodoRec
+(
+ª•⁄£Wrôî
+, 
+pReq
+)
+
+47 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "hitáddtodorec.")
+
+48 
+	`upd©eTodoRec
+(
+ª•⁄£Wrôî
+, 
+pReq
+)
+
+52 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "hitáddtodorec.")
+
+53 
+	`upd©eTodoRecTôÀ
+(
+ª•⁄£Wrôî
+, 
+pReq
+)
+
+57 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "hitáddtodorec.")
+
+58 
+	`upd©eTodoRecSh‹tDesc
+(
+ª•⁄£Wrôî
+, 
+pReq
+)
+
+62 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "hitáddtodorec.")
+
+63 
+	`upd©eTodoRecDueD©e
+(
+ª•⁄£Wrôî
+, 
+pReq
+)
+
+67 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "hitáddtodorec.")
+
+68 
+	`upd©eTodoRecEDA
+(
+ª•⁄£Wrôî
+, 
+pReq
+)
+
+72 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "hitáddtodorec.")
+
+73 
+	`upd©eTodoRecSètus
+(
+ª•⁄£Wrôî
+, 
+pReq
+)
+
+77 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "hitáddtodorec.")
+
+78 
+	`dñëeTodoRec
+(
+ª•⁄£Wrôî
+, 
+pReq
+)
+
+82 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "hô %s, inc‹ª˘ URI", 
+pReq
+.
+Reque°URI
+)
+
+88 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Incorrect method.")
+
+93 
+	}
+}
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go
+
+15 
+∑ckage
+ 
+webSîvî
+
+
+17 
+imp‹t
+ (
+
+30 
+func
+ 
+	$addTodoRec
+(
+ª•⁄£Wrôî
+ 
+hâp
+.
+Re•⁄£Wrôî
+, 
+pReq
+ *hâp.
+Reque°
+) {
+
+31 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Invoked /addtodorec.")
+
+33 
+ªsu…
+ :
+åue
+
+
+35 
+de„r
+ 
+	`func
+() {
+
+36 !
+ªsu…
+ {
+
+37 
+hâp
+.
+	`Eº‹
+(
+ª•⁄£Wrôî
+, 
+≠pC⁄°™ts
+.
+MSG_ERR_ADD_TODO_REC
+, hâp.
+SètusI¡î«lSîvîEº‹
+)
+
+41 
+js⁄Re•⁄£
+ :
+webD©aModñs
+.
+AddJSONRe•⁄£
+ {
+
+42 
+Suc˚ss
+: 
+åue
+,
+
+43 
+Mesßge
+: 
+≠pC⁄°™ts
+.
+MSG_SUCCESS_ADD_TODO_REC
+,
+
+46 
+pReq
+ =
+nû
+ {
+
+47 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "NilÑequest.")
+
+48 
+ªsu…
+ = 
+Ál£
+
+
+52 
+pReq
+.
+Body
+ =
+nû
+ {
+
+53 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nil data inÅheÑequest.")
+
+54 
+ªsu…
+ = 
+Ál£
+
+
+58 
+js⁄Req
+ :
+webD©aModñs
+.
+TodoRecAddJSONReque°
+{}
+
+59 
+îr
+ :
+js⁄
+.
+	`NewDecodî
+(
+pReq
+.
+Body
+).
+	`Decode
+(&
+js⁄Req
+);Éº !
+nû
+ {
+
+60 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "DecodeÉrror.")
+
+61 
+ªsu…
+ = 
+Ál£
+
+
+65 
+todoCacheRec
+ :
+d©aCacheModñs
+.
+TodoCacheRec
+ {
+
+66 
+TôÀ
+: 
+js⁄Req
+.Title,
+
+67 
+Sètus
+: 
+js⁄Req
+.Status,
+
+68 
+DueD©e
+: 
+js⁄Req
+.DueDate,
+
+69 
+EDA
+: 
+js⁄Req
+.EDA,
+
+70 
+Sh‹tDesc
+: 
+js⁄Req
+.ShortDesc,
+
+73 
+isSuc˚ss
+, 
+id
+ :
+d©aCache
+.
+	`TodoCacheAddRec
+(&
+todoCacheRec
+)
+
+74 !
+isSuc˚ss
+ {
+
+75 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Eº‹ whûêaddögÅodo-ªc‹d f‹ÅôÀ: %s", 
+todoCacheRec
+.
+TôÀ
+)
+
+76 
+ªsu…
+ = 
+Ál£
+
+
+80 
+js⁄Re•⁄£
+.
+ID
+ = 
+id
+
+
+81 
+js⁄Re•⁄£ByãD©a
+, 
+îr
+ :
+js⁄
+.
+	`M¨shÆ
+(
+js⁄Re•⁄£
+)
+
+82 
+îr
+ !
+nû
+ {
+
+83 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "EncodeÉrror while creatingÑesponse data.")
+
+84 
+ªsu…
+ = 
+Ál£
+
+
+88 
+ª•⁄£Wrôî
+.
+	`Hódî
+().
+	`Së
+("Content-Type", "application/json")
+
+89 
+ª•⁄£Wrôî
+.
+	`Wrôe
+(
+js⁄Re•⁄£ByãD©a
+)
+
+91 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "AddedÅodo-ªc‹d f‹ÅôÀ: %s", 
+todoCacheRec
+.
+TôÀ
+)
+
+93 
+	}
+}
+
+97 
+func
+ 
+	$gëTodoRecLi°
+(
+ª•⁄£Wrôî
+ 
+hâp
+.
+Re•⁄£Wrôî
+, 
+pReq
+ *hâp.
+Reque°
+) {
+
+98 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Invoked /gettodoreclist.")
+
+100 
+ªsu…
+ :
+åue
+
+
+102 
+de„r
+ 
+	`func
+() {
+
+103 !
+ªsu…
+ {
+
+104 
+hâp
+.
+	`Eº‹
+(
+ª•⁄£Wrôî
+, 
+≠pC⁄°™ts
+.
+MSG_ERR_GET_TODO_RECLIST
+, hâp.
+SètusI¡î«lSîvîEº‹
+)
+
+108 
+js⁄Re•⁄£
+ :
+webD©aModñs
+.
+TodoRecGëLi°JSONRe•⁄£
+ {
+
+109 
+Suc˚ss
+: 
+åue
+,
+
+110 
+Mesßge
+: 
+≠pC⁄°™ts
+.
+MSG_SUCCESS_GET_TODO_RECLIST
+,
+
+113 
+isSuc˚ss
+, 
+todoCacheRecLi°
+ :
+d©aCache
+.
+	`TodoCacheGëLi°
+()
+
+114 !
+isSuc˚ss
+ {
+
+115 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "FailedÅo fetchÅodo-recÜist.")
+
+116 
+ªsu…
+ = 
+Ál£
+
+
+120 
+todoRecLi°
+ :
+	`make
+([]
+webD©aModñs
+.
+TodoRec
+, 
+	`Àn
+(
+todoCacheRecLi°
+))
+
+121 
+i
+, 
+todoCacheRec
+ :
+ønge
+ 
+todoCacheRecLi°
+ {
+
+122 
+todoRecLi°
+[
+i
+].
+ID
+ = 
+todoCacheRec
+.ID
+
+123 
+todoRecLi°
+[
+i
+].
+TôÀ
+ = 
+todoCacheRec
+.Title
+
+124 
+todoRecLi°
+[
+i
+].
+DueD©e
+ = 
+todoCacheRec
+.DueDate
+
+125 
+todoRecLi°
+[
+i
+].
+EDA
+ = 
+todoCacheRec
+.EDA
+
+126 
+todoRecLi°
+[
+i
+].
+Sètus
+ = 
+todoCacheRec
+.Status
+
+127 
+todoRecLi°
+[
+i
+].
+Com∂ëedOn
+ = 
+todoCacheRec
+.CompletedOn
+
+128 
+todoRecLi°
+[
+i
+].
+Sh‹tDesc
+ = 
+todoCacheRec
+.ShortDesc
+
+131 
+js⁄Re•⁄£
+.
+TodoRecLi°
+ = 
+todoRecLi°
+
+
+132 
+js⁄Re•⁄£ByãD©a
+, 
+îr
+ :
+js⁄
+.
+	`M¨shÆ
+(
+js⁄Re•⁄£
+)
+
+133 
+îr
+ !
+nû
+ {
+
+134 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "EncodeÉrror while creatingÑesponse data.")
+
+135 
+ªsu…
+ = 
+Ál£
+
+
+139 
+ª•⁄£Wrôî
+.
+	`Hódî
+().
+	`Së
+("Content-Type", "application/json")
+
+140 
+ª•⁄£Wrôî
+.
+	`Wrôe
+(
+js⁄Re•⁄£ByãD©a
+)
+
+143 
+	}
+}
+
+147 
+func
+ 
+	$gëTodoRec
+(
+ª•⁄£Wrôî
+ 
+hâp
+.
+Re•⁄£Wrôî
+, 
+pReq
+ *hâp.
+Reque°
+) {
+
+148 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Invoked /gettodorec.")
+
+150 
+ªsu…
+ :
+åue
+
+
+152 
+de„r
+ 
+	`func
+() {
+
+153 !
+ªsu…
+ {
+
+154 
+hâp
+.
+	`Eº‹
+(
+ª•⁄£Wrôî
+, 
+≠pC⁄°™ts
+.
+MSG_ERR_GET_TODO_REC
+, hâp.
+SètusI¡î«lSîvîEº‹
+)
+
+158 
+js⁄Re•⁄£
+ :
+webD©aModñs
+.
+TodoRecGëJSONRe•⁄£
+ {
+
+159 
+Suc˚ss
+: 
+åue
+,
+
+160 
+Mesßge
+: 
+≠pC⁄°™ts
+.
+MSG_SUCCESS_GET_TODO_REC
+,
+
+163 
+pReq
+ =
+nû
+ {
+
+164 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "NilÑequest.")
+
+165 
+ªsu…
+ = 
+Ál£
+
+
+169 
+pReq
+.
+Body
+ =
+nû
+ {
+
+170 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nil data inÅheÑequest.")
+
+171 
+ªsu…
+ = 
+Ál£
+
+
+175 
+js⁄Req
+ :
+webD©aModñs
+.
+TodoRecGëJSONReque°
+{}
+
+176 
+îr
+ :
+js⁄
+.
+	`NewDecodî
+(
+pReq
+.
+Body
+).
+	`Decode
+(&
+js⁄Req
+);Éº !
+nû
+ {
+
+177 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "DecodeÉrror.")
+
+178 
+ªsu…
+ = 
+Ál£
+
+
+182 
+isSuc˚ss
+, 
+todoRec
+ :
+d©aCache
+.
+	`TodoCacheGëRecC›y
+(
+js⁄Req
+.
+ID
+)
+
+183 !
+isSuc˚ss
+ {
+
+184 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nÿtodÿôem found f‹ÅodoID: %d", 
+js⁄Req
+.
+ID
+)
+
+185 
+ªsu…
+ = 
+Ál£
+
+
+189 
+js⁄Re•⁄£
+.
+TodoRec
+ = 
+todoRec
+
+
+190 
+js⁄Re•⁄£ByãD©a
+, 
+îr
+ :
+js⁄
+.
+	`M¨shÆ
+(
+js⁄Re•⁄£
+)
+
+191 
+îr
+ !
+nû
+ {
+
+192 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "EncodeÉrror while creatingÑesponse data.")
+
+193 
+ªsu…
+ = 
+Ál£
+
+
+197 
+ª•⁄£Wrôî
+.
+	`Hódî
+().
+	`Së
+("Content-Type", "application/json")
+
+198 
+ª•⁄£Wrôî
+.
+	`Wrôe
+(
+js⁄Re•⁄£ByãD©a
+)
+
+200 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "FëchedÅodo-ªc‹d f‹ ID: %d", 
+js⁄Req
+.
+ID
+)
+
+202 
+	}
+}
+
+206 
+func
+ 
+	$upd©eTodoRec
+(
+ª•⁄£Wrôî
+ 
+hâp
+.
+Re•⁄£Wrôî
+, 
+pReq
+ *hâp.
+Reque°
+) {
+
+207 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Invoked /updatetodorec.")
+
+209 
+ªsu…
+ :
+åue
+
+
+211 
+de„r
+ 
+	`func
+() {
+
+212 !
+ªsu…
+ {
+
+213 
+hâp
+.
+	`Eº‹
+(
+ª•⁄£Wrôî
+, 
+≠pC⁄°™ts
+.
+MSG_ERR_UPDATE_TODO_REC
+, hâp.
+SètusI¡î«lSîvîEº‹
+)
+
+217 
+js⁄Re•⁄£
+ :
+webD©aModñs
+.
+GíîicRe•⁄£
+ {
+
+218 
+Suc˚ss
+: 
+åue
+,
+
+219 
+Mesßge
+: 
+≠pC⁄°™ts
+.
+MSG_SUCCESS_UPDATE_TODO_REC
+,
+
+222 
+pReq
+ =
+nû
+ {
+
+223 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "NilÑequest.")
+
+224 
+ªsu…
+ = 
+Ál£
+
+
+228 
+pReq
+.
+Body
+ =
+nû
+ {
+
+229 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nil data inÅheÑequest.")
+
+230 
+ªsu…
+ = 
+Ál£
+
+
+234 
+js⁄Req
+ :
+webD©aModñs
+.
+TodoRecUpd©eJSONReque°
+{}
+
+235 
+îr
+ :
+js⁄
+.
+	`NewDecodî
+(
+pReq
+.
+Body
+).
+	`Decode
+(&
+js⁄Req
+);Éº !
+nû
+ {
+
+236 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "DecodeÉrror.")
+
+237 
+ªsu…
+ = 
+Ál£
+
+
+241 
+isSuc˚ss
+, 
+todoCacheRec
+ :
+d©aCache
+.
+	`TodoCacheGëRec
+(
+js⁄Req
+.
+ID
+)
+
+242 !
+isSuc˚ss
+ {
+
+243 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nÿtodÿôem found f‹ÅodoID: %d", 
+js⁄Req
+.
+ID
+)
+
+244 
+ªsu…
+ = 
+Ál£
+
+
+247 
+de„r
+ 
+d©aCache
+.
+	`TodoCacheRñó£Rec
+(
+todoCacheRec
+)
+
+249 
+todoCacheRec
+.
+TôÀ
+ = 
+js⁄Req
+.
+TodoRec
+.Title
+
+250 
+todoCacheRec
+.
+DueD©e
+ = 
+js⁄Req
+.
+TodoRec
+.DueDate
+
+251 
+todoCacheRec
+.
+Sètus
+ = 
+js⁄Req
+.
+TodoRec
+.Status
+
+252 
+todoCacheRec
+.
+EDA
+ = 
+js⁄Req
+.
+TodoRec
+.EDA
+
+253 
+todoCacheRec
+.
+Sh‹tDesc
+ = 
+js⁄Req
+.
+TodoRec
+.ShortDesc
+
+255 
+js⁄Re•⁄£ByãD©a
+, 
+îr
+ :
+js⁄
+.
+	`M¨shÆ
+(
+js⁄Re•⁄£
+)
+
+256 
+îr
+ !
+nû
+ {
+
+257 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "EncodeÉrror while creatingÑesponse data.")
+
+258 
+ªsu…
+ = 
+Ál£
+
+
+262 
+ª•⁄£Wrôî
+.
+	`Hódî
+().
+	`Së
+("Content-Type", "application/json")
+
+263 
+ª•⁄£Wrôî
+.
+	`Wrôe
+(
+js⁄Re•⁄£ByãD©a
+)
+
+265 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Upd©edÅodÿªc‹d suc˚ssfuŒy f‹ ID: %d", 
+js⁄Req
+.
+ID
+)
+
+267 
+	}
+}
+
+271 
+func
+ 
+	$upd©eTodoRecTôÀ
+(
+ª•⁄£Wrôî
+ 
+hâp
+.
+Re•⁄£Wrôî
+, 
+pReq
+ *hâp.
+Reque°
+) {
+
+272 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Invoked /updatetodorectitle.")
+
+274 
+ªsu…
+ :
+åue
+
+
+276 
+de„r
+ 
+	`func
+() {
+
+277 !
+ªsu…
+ {
+
+278 
+hâp
+.
+	`Eº‹
+(
+ª•⁄£Wrôî
+, 
+≠pC⁄°™ts
+.
+MSG_ERR_UPDATE_TODO_REC_TITLE
+, hâp.
+SètusI¡î«lSîvîEº‹
+)
+
+282 
+js⁄Re•⁄£
+ :
+webD©aModñs
+.
+GíîicRe•⁄£
+ {
+
+283 
+Suc˚ss
+: 
+åue
+,
+
+284 
+Mesßge
+: 
+≠pC⁄°™ts
+.
+MSG_SUCCESS_UPDATE_TODO_REC_TITLE
+,
+
+287 
+pReq
+ =
+nû
+ {
+
+288 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "NilÑequest.")
+
+289 
+ªsu…
+ = 
+Ál£
+
+
+293 
+pReq
+.
+Body
+ =
+nû
+ {
+
+294 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nil data inÅheÑequest.")
+
+295 
+ªsu…
+ = 
+Ál£
+
+
+299 
+js⁄Req
+ :
+webD©aModñs
+.
+TodoRecUpd©eSåTy≥JSONReque°
+{}
+
+300 
+îr
+ :
+js⁄
+.
+	`NewDecodî
+(
+pReq
+.
+Body
+).
+	`Decode
+(&
+js⁄Req
+);Éº !
+nû
+ {
+
+301 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "DecodeÉrror.")
+
+302 
+ªsu…
+ = 
+Ál£
+
+
+306 
+isSuc˚ss
+, 
+todoCacheRec
+ :
+d©aCache
+.
+	`TodoCacheGëRec
+(
+js⁄Req
+.
+ID
+)
+
+307 !
+isSuc˚ss
+ {
+
+308 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nÿtodÿôem found f‹ÅodoID: %d", 
+js⁄Req
+.
+ID
+)
+
+309 
+ªsu…
+ = 
+Ál£
+
+
+312 
+de„r
+ 
+d©aCache
+.
+	`TodoCacheRñó£Rec
+(
+todoCacheRec
+)
+
+314 
+todoCacheRec
+.
+TôÀ
+ = 
+js⁄Req
+.
+SåVÆ
+
+
+316 
+js⁄Re•⁄£ByãD©a
+, 
+îr
+ :
+js⁄
+.
+	`M¨shÆ
+(
+js⁄Re•⁄£
+)
+
+317 
+îr
+ !
+nû
+ {
+
+318 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "EncodeÉrror while creatingÑesponse data.")
+
+319 
+ªsu…
+ = 
+Ál£
+
+
+323 
+ª•⁄£Wrôî
+.
+	`Hódî
+().
+	`Së
+("Content-Type", "application/json")
+
+324 
+ª•⁄£Wrôî
+.
+	`Wrôe
+(
+js⁄Re•⁄£ByãD©a
+)
+
+326 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Upd©edÅôÀ o‡todo-ªc‹d suc˚ssfuŒy f‹ ID: %d", 
+js⁄Req
+.
+ID
+)
+
+328 
+	}
+}
+
+332 
+func
+ 
+	$upd©eTodoRecSh‹tDesc
+(
+ª•⁄£Wrôî
+ 
+hâp
+.
+Re•⁄£Wrôî
+, 
+pReq
+ *hâp.
+Reque°
+) {
+
+333 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Invoked /updatetodorecshortdesc.")
+
+335 
+ªsu…
+ :
+åue
+
+
+337 
+de„r
+ 
+	`func
+() {
+
+338 !
+ªsu…
+ {
+
+339 
+hâp
+.
+	`Eº‹
+(
+ª•⁄£Wrôî
+, 
+≠pC⁄°™ts
+.
+MSG_ERR_UPDATE_TODO_REC_SHORTDESC
+, hâp.
+SètusI¡î«lSîvîEº‹
+)
+
+343 
+js⁄Re•⁄£
+ :
+webD©aModñs
+.
+GíîicRe•⁄£
+ {
+
+344 
+Suc˚ss
+: 
+åue
+,
+
+345 
+Mesßge
+: 
+≠pC⁄°™ts
+.
+MSG_SUCCESS_UPDATE_TODO_REC_SHORTDESC
+,
+
+348 
+pReq
+ =
+nû
+ {
+
+349 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "NilÑequest.")
+
+350 
+ªsu…
+ = 
+Ál£
+
+
+354 
+pReq
+.
+Body
+ =
+nû
+ {
+
+355 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nil data inÅheÑequest.")
+
+356 
+ªsu…
+ = 
+Ál£
+
+
+360 
+js⁄Req
+ :
+webD©aModñs
+.
+TodoRecUpd©eSåTy≥JSONReque°
+{}
+
+361 
+îr
+ :
+js⁄
+.
+	`NewDecodî
+(
+pReq
+.
+Body
+).
+	`Decode
+(&
+js⁄Req
+);Éº !
+nû
+ {
+
+362 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "DecodeÉrror.")
+
+363 
+ªsu…
+ = 
+Ál£
+
+
+367 
+isSuc˚ss
+, 
+todoCacheRec
+ :
+d©aCache
+.
+	`TodoCacheGëRec
+(
+js⁄Req
+.
+ID
+)
+
+368 !
+isSuc˚ss
+ {
+
+369 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nÿtodÿôem found f‹ÅodoID: %d", 
+js⁄Req
+.
+ID
+)
+
+370 
+ªsu…
+ = 
+Ál£
+
+
+373 
+de„r
+ 
+d©aCache
+.
+	`TodoCacheRñó£Rec
+(
+todoCacheRec
+)
+
+375 
+todoCacheRec
+.
+Sh‹tDesc
+ = 
+js⁄Req
+.
+SåVÆ
+
+
+377 
+js⁄Re•⁄£ByãD©a
+, 
+îr
+ :
+js⁄
+.
+	`M¨shÆ
+(
+js⁄Re•⁄£
+)
+
+378 
+îr
+ !
+nû
+ {
+
+379 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "EncodeÉrror while creatingÑesponse data.")
+
+380 
+ªsu…
+ = 
+Ál£
+
+
+384 
+ª•⁄£Wrôî
+.
+	`Hódî
+().
+	`Së
+("Content-Type", "application/json")
+
+385 
+ª•⁄£Wrôî
+.
+	`Wrôe
+(
+js⁄Re•⁄£ByãD©a
+)
+
+387 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Upd©ed sh‹àdes¸ùti⁄ o‡todo-ªc‹d suc˚ssfuŒy f‹ ID: %d", 
+js⁄Req
+.
+ID
+)
+
+389 
+	}
+}
+
+393 
+func
+ 
+	$upd©eTodoRecDueD©e
+(
+ª•⁄£Wrôî
+ 
+hâp
+.
+Re•⁄£Wrôî
+, 
+pReq
+ *hâp.
+Reque°
+) {
+
+394 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Invoked /updatetodorecduedate.")
+
+396 
+ªsu…
+ :
+åue
+
+
+398 
+de„r
+ 
+	`func
+() {
+
+399 !
+ªsu…
+ {
+
+400 
+hâp
+.
+	`Eº‹
+(
+ª•⁄£Wrôî
+, 
+≠pC⁄°™ts
+.
+MSG_ERR_UPDATE_TODO_REC_DUEDATE
+, hâp.
+SètusI¡î«lSîvîEº‹
+)
+
+404 
+js⁄Re•⁄£
+ :
+webD©aModñs
+.
+GíîicRe•⁄£
+ {
+
+405 
+Suc˚ss
+: 
+åue
+,
+
+406 
+Mesßge
+: 
+≠pC⁄°™ts
+.
+MSG_SUCCESS_UPDATE_TODO_REC_DUEDATE
+,
+
+409 
+pReq
+ =
+nû
+ {
+
+410 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "NilÑequest.")
+
+411 
+ªsu…
+ = 
+Ál£
+
+
+415 
+pReq
+.
+Body
+ =
+nû
+ {
+
+416 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nil data inÅheÑequest.")
+
+417 
+ªsu…
+ = 
+Ál£
+
+
+421 
+js⁄Req
+ :
+webD©aModñs
+.
+TodoRecUpd©eTimeTy≥JSONReque°
+{}
+
+422 
+îr
+ :
+js⁄
+.
+	`NewDecodî
+(
+pReq
+.
+Body
+).
+	`Decode
+(&
+js⁄Req
+);Éº !
+nû
+ {
+
+423 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "DecodeÉrror.")
+
+424 
+ªsu…
+ = 
+Ál£
+
+
+428 
+isSuc˚ss
+, 
+todoCacheRec
+ :
+d©aCache
+.
+	`TodoCacheGëRec
+(
+js⁄Req
+.
+ID
+)
+
+429 !
+isSuc˚ss
+ {
+
+430 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nÿtodÿôem found f‹ÅodoID: %d", 
+js⁄Req
+.
+ID
+)
+
+431 
+ªsu…
+ = 
+Ál£
+
+
+434 
+de„r
+ 
+d©aCache
+.
+	`TodoCacheRñó£Rec
+(
+todoCacheRec
+)
+
+436 
+todoCacheRec
+.
+DueD©e
+ = 
+js⁄Req
+.
+TimeVÆ
+
+
+438 
+js⁄Re•⁄£ByãD©a
+, 
+îr
+ :
+js⁄
+.
+	`M¨shÆ
+(
+js⁄Re•⁄£
+)
+
+439 
+îr
+ !
+nû
+ {
+
+440 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "EncodeÉrror while creatingÑesponse data.")
+
+441 
+ªsu…
+ = 
+Ál£
+
+
+445 
+ª•⁄£Wrôî
+.
+	`Hódî
+().
+	`Së
+("Content-Type", "application/json")
+
+446 
+ª•⁄£Wrôî
+.
+	`Wrôe
+(
+js⁄Re•⁄£ByãD©a
+)
+
+448 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Upd©ed dued©êo‡todo-ªc‹d suc˚ssfuŒy f‹ ID: %d", 
+js⁄Req
+.
+ID
+)
+
+450 
+	}
+}
+
+454 
+func
+ 
+	$upd©eTodoRecEDA
+(
+ª•⁄£Wrôî
+ 
+hâp
+.
+Re•⁄£Wrôî
+, 
+pReq
+ *hâp.
+Reque°
+) {
+
+455 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Invoked /updatetodoreceda.")
+
+457 
+ªsu…
+ :
+åue
+
+
+459 
+de„r
+ 
+	`func
+() {
+
+460 !
+ªsu…
+ {
+
+461 
+hâp
+.
+	`Eº‹
+(
+ª•⁄£Wrôî
+, 
+≠pC⁄°™ts
+.
+MSG_ERR_UPDATE_TODO_REC_EDA
+, hâp.
+SètusI¡î«lSîvîEº‹
+)
+
+465 
+js⁄Re•⁄£
+ :
+webD©aModñs
+.
+GíîicRe•⁄£
+ {
+
+466 
+Suc˚ss
+: 
+åue
+,
+
+467 
+Mesßge
+: 
+≠pC⁄°™ts
+.
+MSG_SUCCESS_UPDATE_TODO_REC_EDA
+,
+
+470 
+pReq
+ =
+nû
+ {
+
+471 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "NilÑequest.")
+
+472 
+ªsu…
+ = 
+Ál£
+
+
+476 
+pReq
+.
+Body
+ =
+nû
+ {
+
+477 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nil data inÅheÑequest.")
+
+478 
+ªsu…
+ = 
+Ál£
+
+
+482 
+js⁄Req
+ :
+webD©aModñs
+.
+TodoRecUpd©eTimeTy≥JSONReque°
+{}
+
+483 
+îr
+ :
+js⁄
+.
+	`NewDecodî
+(
+pReq
+.
+Body
+).
+	`Decode
+(&
+js⁄Req
+);Éº !
+nû
+ {
+
+484 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "DecodeÉrror.")
+
+485 
+ªsu…
+ = 
+Ál£
+
+
+489 
+isSuc˚ss
+, 
+todoCacheRec
+ :
+d©aCache
+.
+	`TodoCacheGëRec
+(
+js⁄Req
+.
+ID
+)
+
+490 !
+isSuc˚ss
+ {
+
+491 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nÿtodÿôem found f‹ÅodoID: %d", 
+js⁄Req
+.
+ID
+)
+
+492 
+ªsu…
+ = 
+Ál£
+
+
+495 
+de„r
+ 
+d©aCache
+.
+	`TodoCacheRñó£Rec
+(
+todoCacheRec
+)
+
+497 
+todoCacheRec
+.
+EDA
+ = 
+js⁄Req
+.
+TimeVÆ
+
+
+499 
+js⁄Re•⁄£ByãD©a
+, 
+îr
+ :
+js⁄
+.
+	`M¨shÆ
+(
+js⁄Re•⁄£
+)
+
+500 
+îr
+ !
+nû
+ {
+
+501 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "EncodeÉrror while creatingÑesponse data.")
+
+502 
+ªsu…
+ = 
+Ál£
+
+
+506 
+ª•⁄£Wrôî
+.
+	`Hódî
+().
+	`Së
+("Content-Type", "application/json")
+
+507 
+ª•⁄£Wrôî
+.
+	`Wrôe
+(
+js⁄Re•⁄£ByãD©a
+)
+
+509 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Upd©ed EDA o‡todo-ªc‹d suc˚ssfuŒy f‹ ID: %d", 
+js⁄Req
+.
+ID
+)
+
+511 
+	}
+}
+
+515 
+func
+ 
+	$upd©eTodoRecSètus
+(
+ª•⁄£Wrôî
+ 
+hâp
+.
+Re•⁄£Wrôî
+, 
+pReq
+ *hâp.
+Reque°
+) {
+
+516 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Invoked /updatetodorecstatus.")
+
+518 
+ªsu…
+ :
+åue
+
+
+520 
+de„r
+ 
+	`func
+() {
+
+521 !
+ªsu…
+ {
+
+522 
+hâp
+.
+	`Eº‹
+(
+ª•⁄£Wrôî
+, 
+≠pC⁄°™ts
+.
+MSG_ERR_UPDATE_TODO_REC_STATUS
+, hâp.
+SètusI¡î«lSîvîEº‹
+)
+
+526 
+js⁄Re•⁄£
+ :
+webD©aModñs
+.
+GíîicRe•⁄£
+ {
+
+527 
+Suc˚ss
+: 
+åue
+,
+
+528 
+Mesßge
+: 
+≠pC⁄°™ts
+.
+MSG_SUCCESS_UPDATE_TODO_REC_STATUS
+,
+
+531 
+pReq
+ =
+nû
+ {
+
+532 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "NilÑequest.")
+
+533 
+ªsu…
+ = 
+Ál£
+
+
+537 
+pReq
+.
+Body
+ =
+nû
+ {
+
+538 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nil data inÅheÑequest.")
+
+539 
+ªsu…
+ = 
+Ál£
+
+
+543 
+js⁄Req
+ :
+webD©aModñs
+.
+TodoRecUpd©eSètusJSONReque°
+{}
+
+544 
+îr
+ :
+js⁄
+.
+	`NewDecodî
+(
+pReq
+.
+Body
+).
+	`Decode
+(&
+js⁄Req
+);Éº !
+nû
+ {
+
+545 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "DecodeÉrror.")
+
+546 
+ªsu…
+ = 
+Ál£
+
+
+550 
+isSuc˚ss
+, 
+todoCacheRec
+ :
+d©aCache
+.
+	`TodoCacheGëRec
+(
+js⁄Req
+.
+ID
+)
+
+551 !
+isSuc˚ss
+ {
+
+552 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nÿtodÿôem found f‹ÅodoID: %d", 
+js⁄Req
+.
+ID
+)
+
+553 
+ªsu…
+ = 
+Ál£
+
+
+556 
+de„r
+ 
+d©aCache
+.
+	`TodoCacheRñó£Rec
+(
+todoCacheRec
+)
+
+558 
+todoCacheRec
+.
+Sètus
+ = 
+js⁄Req
+.Status
+
+560 
+js⁄Re•⁄£ByãD©a
+, 
+îr
+ :
+js⁄
+.
+	`M¨shÆ
+(
+js⁄Re•⁄£
+)
+
+561 
+îr
+ !
+nû
+ {
+
+562 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "EncodeÉrror while creatingÑesponse data.")
+
+563 
+ªsu…
+ = 
+Ál£
+
+
+567 
+ª•⁄£Wrôî
+.
+	`Hódî
+().
+	`Së
+("Content-Type", "application/json")
+
+568 
+ª•⁄£Wrôî
+.
+	`Wrôe
+(
+js⁄Re•⁄£ByãD©a
+)
+
+570 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Upd©ed sètu†o‡todo-ªc‹d suc˚ssfuŒy f‹ ID: %d", 
+js⁄Req
+.
+ID
+)
+
+572 
+	}
+}
+
+576 
+func
+ 
+	$dñëeTodoRec
+(
+ª•⁄£Wrôî
+ 
+hâp
+.
+Re•⁄£Wrôî
+, 
+pReq
+ *hâp.
+Reque°
+) {
+
+577 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "Invoked /deletetodorec.")
+
+579 
+ªsu…
+ :
+åue
+
+
+581 
+de„r
+ 
+	`func
+() {
+
+582 !
+ªsu…
+ {
+
+583 
+hâp
+.
+	`Eº‹
+(
+ª•⁄£Wrôî
+, 
+≠pC⁄°™ts
+.
+MSG_ERR_DELETE_TODO_REC
+, hâp.
+SètusI¡î«lSîvîEº‹
+)
+
+587 
+js⁄Re•⁄£
+ :
+webD©aModñs
+.
+GíîicRe•⁄£
+ {
+
+588 
+Suc˚ss
+: 
+åue
+,
+
+589 
+Mesßge
+: 
+≠pC⁄°™ts
+.
+MSG_SUCCESS_DELETE_TODO_REC
+,
+
+592 
+pReq
+ =
+nû
+ {
+
+593 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "NilÑequest.")
+
+594 
+ªsu…
+ = 
+Ál£
+
+
+598 
+pReq
+.
+Body
+ =
+nû
+ {
+
+599 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Nil data inÅheÑequest.")
+
+600 
+ªsu…
+ = 
+Ál£
+
+
+604 
+js⁄Req
+ :
+webD©aModñs
+.
+TodoRecDñëeJSONReque°
+{}
+
+605 
+îr
+ :
+js⁄
+.
+	`NewDecodî
+(
+pReq
+.
+Body
+).
+	`Decode
+(&
+js⁄Req
+);Éº !
+nû
+ {
+
+606 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "DecodeÉrror.")
+
+607 
+ªsu…
+ = 
+Ál£
+
+
+611 
+isSuc˚ss
+ :
+d©aCache
+.
+	`TodoCacheDñëeRec
+(
+js⁄Req
+.
+ID
+); !isSuccess {
+
+612 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "Todo-ªc‹d wôh ID: %d couldn'àbêªmoved", 
+js⁄Req
+.
+ID
+)
+
+613 
+ªsu…
+ = 
+Ál£
+
+
+617 
+js⁄Re•⁄£ByãD©a
+, 
+îr
+ :
+js⁄
+.
+	`M¨shÆ
+(
+js⁄Re•⁄£
+)
+
+618 
+îr
+ !
+nû
+ {
+
+619 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "EncodeÉrror while creatingÑesponse data.")
+
+620 
+ªsu…
+ = 
+Ál£
+
+
+624 
+ª•⁄£Wrôî
+.
+	`Hódî
+().
+	`Së
+("Content-Type", "application/json")
+
+625 
+ª•⁄£Wrôî
+.
+	`Wrôe
+(
+js⁄Re•⁄£ByãD©a
+)
+
+627 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+DEBUG
+, "RemovedÅodo-ªc‹d (%dËsuc˚ssfuŒy.", 
+js⁄Req
+.
+ID
+)
+
+629 
+	}
+}
+
+	@/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/webServer.go
+
+15 
+∑ckage
+ 
+webSîvî
+
+
+17 
+imp‹t
+ (
+
+26 
+func
+ 
+	$Inô
+(
+pVromWG
+ *
+sync
+.
+WaôGroup
+) {
+
+27 
+de„r
+ 
+pVromWG
+.
+	`D⁄e
+()
+
+29 
+≠pRïo
+.
+PC⁄figP¨amëîs
+ =
+nû
+ {
+
+30 
+loggî
+.
+	`Log
+÷oggî.
+WEBSERVICE
+,Üoggî.
+ERROR
+, "ERROR: Empty server configurations.\n")
+
+34 
+hâp
+.
+	`H™dÀFunc
+("/addtod‹ec", 
+h™dÀReque°
+)
+
+35 
+hâp
+.
+	`H™dÀFunc
+("/gëtod‹e˛i°", 
+h™dÀReque°
+)
+
+36 
+hâp
+.
+	`H™dÀFunc
+("/gëtod‹ec", 
+h™dÀReque°
+)
+
+37 
+hâp
+.
+	`H™dÀFunc
+("/upd©ëod‹ec", 
+h™dÀReque°
+)
+
+38 
+hâp
+.
+	`H™dÀFunc
+("/upd©ëod‹e˘ôÀ", 
+h™dÀReque°
+)
+
+39 
+hâp
+.
+	`H™dÀFunc
+("/upd©ëod‹ecsh‹tdesc", 
+h™dÀReque°
+)
+
+40 
+hâp
+.
+	`H™dÀFunc
+("/upd©ëod‹ecdued©e", 
+h™dÀReque°
+)
+
+41 
+hâp
+.
+	`H™dÀFunc
+("/upd©ëod‹e˚da", 
+h™dÀReque°
+)
+
+42 
+hâp
+.
+	`H™dÀFunc
+("/upd©ëod‹ec°©us", 
+h™dÀReque°
+)
+
+43 
+hâp
+.
+	`H™dÀFunc
+("/dñëëod‹ec", 
+h™dÀReque°
+)
+
+45 
+£rvîWebSîvi˚P‹t
+ :
+fmt
+.
+	`S¥ötf
+(":%d", 
+≠pRïo
+.
+PC⁄figP¨amëîs
+.
+SîvîC⁄figP¨ams
+.
+SîvîWebSîvi˚P‹t
+)
+
+46 
+hâp
+.
+	`Li°íAndSîve
+(
+£rvîWebSîvi˚P‹t
+, 
+nû
+)
+
+47 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+14
+1418
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appRepo/appRepo.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCache.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCacheRepo.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/requestHandler.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/webServer.go

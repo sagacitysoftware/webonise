@@ -1,0 +1,14 @@
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/configModel.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/config/config.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/coreServer.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/dataCacheModels/dataCacheModels.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/models/webDataModels/webDataModels.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/logger/logger.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/todoCache.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCache.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/dataCache/dataCacheRepo.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/requestHandler.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/todoDataAPI.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/webServer/webServer.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appRepo/appRepo.go
+/home/sameer.oak/SampleCode/SampleCodeGo/todoapp/appServer/src/sagacity.com/appConstants/webResponseMessages.go

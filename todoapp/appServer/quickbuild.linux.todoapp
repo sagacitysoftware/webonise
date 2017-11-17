@@ -1,0 +1,32 @@
+#!/bin/bash
+
+clear
+BINARY_NAME="todoapp.sagacity.com"
+[ -f "$BINARY_NAME" ] && sudo rm -f "$BINARY_NAME"
+#st="$(vdate 3)"
+st="$(date "+%d-%b-%Y-%H%M%S-%3N-%Z")"
+
+#go build -race -v -gcflags "-N -l" opensoach.com
+go build -race -v -gcflags "-N -l" -o "$BINARY_NAME" sagacity.com
+ret_status="$?"
+let "ret_status += 0"
+if [ "$ret_status" -ne 0 ] ; then
+	exit 1
+fi
+
+et="$(vdate 3)"
+
+echo -e "ct: $(vdate 3)\nst: $st\net: $et"
+sleep 1
+
+sudo mkdir -p /opt/Sagacity/todoapp/logs/server_logs
+sudo cp -f "$BINARY_NAME" /opt/Sagacity/todoapp/
+
+find /opt/Sagacity/todoapp -type d -print0 | xargs -0 sudo chmod 555
+find /opt/Sagacity/todoapp -type f -print0 | xargs -0 sudo chmod 444
+sudo chmod 555 /opt/Sagacity/todoapp/"$BINARY_NAME"
+sudo chown -R root:root /opt/Sagacity/todoapp/
+
+ls -lrtp --time-style="+%d-%b-%Y-%H%M%S:%3N" "$BINARY_NAME" /opt/Sagacity/todoapp/"$BINARY_NAME"
+
+exit 0

@@ -1,0 +1,22 @@
+Sameer and me had a phone chat now and as part of the further process I would like him to
+create a simple Webservice with the following problem statement.
+
+A TODO Restful service with the ability to 
+Get All Todos
+Create a Todo
+Get a Todo by id
+Update a Todo
+Delete a Todo
+
+The Todo entity has the following fields:
+1> ID
+2> Title(Name)
+3> Status(is done)
+4> Due Date(time at which this is due)
+
+This can be a simple HTTP service created using the packages inside Golang's standard library(https://golang.org/pkg/)
+The datastore can be an in-memory data structure
+This assignment can be submitted via a public github.com Id.
+
+Please try to submit this assignment by Thursday.
+Also I dont have Sameer's co-ordinates. Kindly forward it to him.
