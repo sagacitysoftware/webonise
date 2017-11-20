@@ -1,10 +1,11 @@
 /* ****************************************************************************
-Copyright © 2015-2017 by opensoach. All rights reserved.
-Filename    : config.go
-File-type   : go-lang-1.6.2 source code file.
-Compiler    : go version go1.6.2 linux/amd64
+Copyright © 2015-2017 by Sagacity Software Pvt. Ltd.. All rights reserved.
+Package     : sagacity.com/config
+Filename    : sagacity.com/config/config.go
+File-type   : golang source code file
 
-Author      : sameer oak (sameer.oak@sagacitysoftware.co.in)
+Compiler/Runtime: go, golang version go1.9 linux/amd64 (linux/x86_64)
+
 Description :
 - Loads configuration parameters from serverconfigparams.xml file.
 - At present, serverconfigparams.xml file contains only following server configuration parameters:
@@ -35,7 +36,7 @@ and log configuration parameters.
 
 Version History
 Version     : 1.0
-Author      : sameer oak (sameer.oak@opensoach.com)
+Author      : sameer oak (sameer.oak@sagacitysoftware.co.in)
 Description : Initial version
 **************************************************************************** */
 package config
